@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+    http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+<!--
+SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+SPDX-License-Identifier: LGPL-2.0-or-later
+-->
+    <group name="General">
+        <entry name="Method" type="Enum">
+            <label>The last HTTP method used.</label>
+            <choices>
+                <choice name="Get"/>
+                <choice name="Post"/>
+                <choice name="Put"/>
+                <choice name="Patch"/>
+                <choice name="Delete"/>
+            </choices>
+            <default>Get</default>
+        </entry>
+    </group>
+</kcfg>
