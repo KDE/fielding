@@ -15,7 +15,7 @@ RowLayout {
     spacing: 0
 
     QQC2.ComboBox {
-        Layout.maximumWidth: Kirigami.Units.gridUnit * 5
+        Layout.maximumWidth: Kirigami.Units.largeSpacing * 10
         model: ["GET", "POST", "PUT", "PATCH", "DELETE"]
         currentIndex: Config.method
         onCurrentIndexChanged: {
