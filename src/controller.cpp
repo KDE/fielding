@@ -12,19 +12,6 @@
 
 void Controller::fetch(QUrl url, QJsonObject options)
 {
-    // handle params
-    QJsonObject params = options.value("params").toObject();
-    QUrlQuery query;
-
-    auto map = params.toVariantMap();
-    QMap<QString, QVariant>::const_iterator i = map.constBegin();
-    while (i != map.constEnd()) {
-        query.addQueryItem(i.key(), i.value().toString());
-        i++;
-    }
-
-    url.setQuery(query.query());
-
     // handle data
     QJsonDocument doc(data());
     QByteArray inputData = doc.toJson();
