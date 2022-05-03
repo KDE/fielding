@@ -142,12 +142,37 @@ Kirigami.ApplicationWindow {
                 QQC2.Label {
                     id: statusLabel
                     Layout.alignment: Qt.AlignLeft
+                    visible: false
+                    text: i18n("Status: ")
+                }
+                QQC2.Label {
+                    id: statusLabelCodeText
+                    Layout.alignment: Qt.AlignLeft
+                }
 
-                    Connections {
-                        target: Controller
+                Item {
+                    Layout.fillWidth: true
+                }
 
-                        function onStatus(statusCode, statusText) {
-                            statusLabel.text = i18n("Status: %1 %2", statusCode, statusText)
+                Connections {
+                    target: Controller
+
+                    function onStatus(statusCode, statusText) {
+                        statusLabelCodeText.text = `${statusCode} ${statusText}`
+                        statusLabel.visible = true
+
+                        if (statusCode >= 100 && statusCode <= 199) {
+                            statusLabelCodeText.color = Kirigami.Theme.disabledTextColor
+                        } else if (statusCode >= 200 && statusCode <= 299) {
+                            statusLabelCodeText.color = Kirigami.Theme.positiveTextColor
+                        } else if (statusCode >= 300 && statusCode <= 399) {
+                            statusLabelCodeText.color = Kirigami.Theme.linkColor
+                        } else if (statusCode >= 400 && statusCode <= 499) {
+                            statusLabelCodeText.color = Kirigami.Theme.negativeTextColor
+                        } else if (statusCode >= 500 && statusCode <= 599) {
+                            statusLabelCodeText.color = Kirigami.Theme.neutralTextColor
+                        } else {
+                            statusLabelCodeText.color = Kirigami.Theme.textColor
                         }
                     }
                 }
