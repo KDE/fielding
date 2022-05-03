@@ -4,14 +4,14 @@
   SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
   SPDX-License-Identifier: CC0-1.0
   -->
-  <id>org.kde.roy</id>
-  <name>Roy</name>
+  <id>org.kde.fielding</id>
+  <name>Fielding</name>
   <summary>Simple REST API testing tool</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
   <description>
-    <p>Roy makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.</p>
+    <p>Fielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.</p>
   </description>
   <requires>
     <display_length compare="ge">360</display_length>
@@ -22,8 +22,8 @@
     <control>touch</control>
   </recommends>
   <provides>
-    <binary>roy</binary>
+    <binary>fielding</binary>
   </provides>
-  <url type="homepage">https://invent.kde.org/fhek/roy</url>
-  <url type="bugtracker">https://invent.kde.org/fhek/roy/-/issues</url>
+  <url type="homepage">https://invent.kde.org/fhek/fielding</url>
+  <url type="bugtracker">https://invent.kde.org/fhek/fielding/-/issues</url>
 </component>

@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
 # SPDX-License-Identifier: LGPL-2.0-or-later
 
-File=royconfig.kcfg
-ClassName=royConfig
+File=fieldingconfig.kcfg
+ClassName=fieldingConfig
 Mutators=true
 DefaultValueGetters=true
 GenerateProperties=true

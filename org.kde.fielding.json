@@ -1,9 +1,9 @@
 {
-    "id": "org.kde.roy",
+    "id": "org.kde.fielding",
     "runtime": "org.kde.Platform",
     "runtime-version": "5.15",
     "sdk": "org.kde.Sdk",
-    "command": "roy",
+    "command": "fielding",
     "tags": ["nightly"],
     "desktop-file-name-suffix": " (Nightly)",
     "finish-args": [
@@ -18,7 +18,7 @@
 
     "modules": [
         {
-            "name": "roy",
+            "name": "fielding",
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [ { "type": "dir", "path": ".", "skip": [".git"] } ]

@@ -7,12 +7,12 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
 import org.kde.syntaxhighlighting 1.0
 
-import org.kde.roy 1.0
+import org.kde.fielding 1.0
 
 Kirigami.ApplicationWindow {
     id: root
 
-    title: i18n("Roy")
+    title: i18n("Fielding")
 
     width: Kirigami.Units.gridUnit * 42
     height: Kirigami.Units.gridUnit * 32

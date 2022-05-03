@@ -3,7 +3,7 @@
 
 cmake_minimum_required(VERSION 3.16)
 
-project(roy VERSION 0.1)
+project(fielding VERSION 0.1)
 
 include(FeatureSummary)
 
@@ -26,8 +26,8 @@ include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 
 ecm_setup_version(${PROJECT_VERSION}
-    VARIABLE_PREFIX ROY
-    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/version-roy.h"
+    VARIABLE_PREFIX FIELDING
+    VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/src/version-fielding.h"
 )
 
 find_package(Qt5 ${QT5_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
@@ -35,8 +35,8 @@ find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 CoreAddons Con
 
 add_subdirectory(src)
 
-install(PROGRAMS org.kde.roy.desktop DESTINATION ${KDE_INSTALL_APPDIR})
-install(FILES org.kde.roy.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
-install(FILES org.kde.roy.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
+install(PROGRAMS org.kde.fielding.desktop DESTINATION ${KDE_INSTALL_APPDIR})
+install(FILES org.kde.fielding.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES org.kde.fielding.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)

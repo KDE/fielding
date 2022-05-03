@@ -6,7 +6,7 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
 
-import org.kde.roy 1.0
+import org.kde.fielding 1.0
 
 RowLayout {
     id: pageHeader
@@ -67,7 +67,7 @@ RowLayout {
     QQC2.ToolButton {
         display: QQC2.AbstractButton.IconOnly
         action: Kirigami.Action {
-            text: i18n("About Roy")
+            text: i18n("About Fielding")
             icon.name: "help-about"
             shortcut: StandardKey.HelpContents
             onTriggered: pageStack.layers.push("About.qml")
