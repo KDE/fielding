@@ -28,7 +28,8 @@ public:
     }
     Q_SIGNAL void dataChanged();
 
-    Q_SIGNAL QString response(QString);
+    Q_SIGNAL void response(QString);
+    Q_SIGNAL void status(int statusCode, QString statusText);
 
 private:
     QNetworkAccessManager m_manager;

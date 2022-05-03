@@ -130,5 +130,28 @@ Kirigami.ApplicationWindow {
                 }
             }
         }
+
+        footer: QQC2.ToolBar {
+            implicitHeight: content.implicitHeight + Kirigami.Units.smallSpacing * 2
+            position: QQC2.ToolBar.Footer
+
+            RowLayout {
+                id: content
+                anchors.fill: parent
+
+                QQC2.Label {
+                    id: statusLabel
+                    Layout.alignment: Qt.AlignLeft
+
+                    Connections {
+                        target: Controller
+
+                        function onStatus(statusCode, statusText) {
+                            statusLabel.text = i18n("Status: %1 %2", statusCode, statusText)
+                        }
+                    }
+                }
+            }
+        }
     }
 }

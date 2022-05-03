@@ -56,18 +56,12 @@ void Controller::fetch(QUrl url, QJsonObject options)
         QString replyText = reply->readAll();
         QJsonObject data = QJsonDocument::fromJson(replyText.toUtf8()).object();
 
-        // response object
-        QJsonObject obj = QJsonObject({
-            {"response", data},
-            {"status", reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt()},
-            {"statusText", reply->attribute(QNetworkRequest::HttpReasonPhraseAttribute).toString()}
-        });
-
-        QJsonDocument doc(obj);
+        QJsonDocument doc(data);
         QByteArray ba = doc.toJson();
         QString string = QString(ba);
 
         Q_EMIT response(string);
+        Q_EMIT status(reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt(), reply->attribute(QNetworkRequest::HttpReasonPhraseAttribute).toString());
 
         reply->deleteLater(); // make sure to clean up
     });
