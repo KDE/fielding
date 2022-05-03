@@ -13,6 +13,8 @@ class Controller : public QObject
     Q_PROPERTY(QJsonObject data MEMBER m_data NOTIFY dataChanged)
 
 public:
+    explicit Controller(QObject* parent = nullptr);
+
     Q_INVOKABLE void fetch(QUrl url, QJsonObject options);
 
     QJsonObject data()

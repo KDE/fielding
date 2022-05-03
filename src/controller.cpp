@@ -7,8 +7,12 @@
 #include <QJsonObject>
 #include <QUrlQuery>
 
-
 #include "controller.h"
+
+Controller::Controller(QObject* parent)
+    : QObject(parent)
+{
+}
 
 void Controller::fetch(QUrl url, QJsonObject options)
 {
