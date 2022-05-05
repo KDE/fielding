@@ -8,5 +8,5 @@ Exec=fielding
 Icon=org.kde.fielding
 Type=Application
 Terminal=false
-Categories=Qt;KDE;Utility;
+Categories=Qt;KDE;Development;Utility;
 SingleMainWindow=true
