@@ -54,7 +54,8 @@ void Controller::fetch(QUrl url, QJsonObject options)
     // read data
     QObject::connect(reply, &QNetworkReply::finished, [this, reply]() {
         QString replyText = reply->readAll();
-        QJsonObject data = QJsonDocument::fromJson(replyText.toUtf8()).object();
+
+        QJsonDocument data = QJsonDocument::fromJson(replyText.toUtf8());
 
         QJsonDocument doc(data);
         QByteArray ba = doc.toJson();
