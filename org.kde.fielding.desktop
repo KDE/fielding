@@ -3,7 +3,17 @@
 
 [Desktop Entry]
 Name=Fielding
+Name[ca]=Fielding
+Name[es]=Fielding
+Name[sv]=Fielding
+Name[uk]=Fielding
+Name[x-test]=xxFieldingxx
 Comment=Simple REST API testing tool
+Comment[ca]=Eina senzilla de proves de l'API REST
+Comment[es]=Sencilla herramienta para probar la API de REST
+Comment[sv]=Enkelt testverktyg för programmeringsgränssnittet REST
+Comment[uk]=Простий засіб тестування програмного інтерфейсу REST
+Comment[x-test]=xxSimple REST API testing toolxx
 Exec=fielding
 Icon=org.kde.fielding
 Type=Application
