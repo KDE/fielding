@@ -6,12 +6,32 @@
   -->
   <id>org.kde.fielding</id>
   <name>Fielding</name>
+  <name xml:lang="ca">Fielding</name>
+  <name xml:lang="es">Fielding</name>
+  <name xml:lang="sv">Fielding</name>
+  <name xml:lang="uk">Fielding</name>
+  <name xml:lang="x-test">xxFieldingxx</name>
   <summary>Simple REST API testing tool</summary>
+  <summary xml:lang="ca">Eina senzilla de proves de l'API REST</summary>
+  <summary xml:lang="es">Sencilla herramienta para probar la API de REST</summary>
+  <summary xml:lang="sv">Enkelt testverktyg för programmeringsgränssnittet REST</summary>
+  <summary xml:lang="uk">Простий засіб тестування програмного інтерфейсу REST</summary>
+  <summary xml:lang="x-test">xxSimple REST API testing toolxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <description>
     <p>Fielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.</p>
+    <p xml:lang="ca">El Fielding facilita provar l'API REST, permet que es facin sol·licituds dels mètodes HTTP més utilitzats.</p>
+    <p xml:lang="es">Fielding facilita las pruebas de la API de REST. Permite realizar peticiones mediante los métodos HTTP más usados.</p>
+    <p xml:lang="sv">Fielding gör det enkelt att testa ditt REST-programmeringsgränssnitt, och låter dig utföra förfrågningar med de mest använda HTTP-metoderna.</p>
+    <p xml:lang="uk">Fielding спрощує вам тестування вашого програмного інтерфейсу REST; програма надає вам змогу створювати запит для більшості використовуваних методів HTTP.</p>
+    <p xml:lang="x-test">xxFielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.xx</p>
   </description>
   <requires>
     <display_length compare="ge">360</display_length>
