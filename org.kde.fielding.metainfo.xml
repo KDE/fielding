@@ -8,12 +8,18 @@
   <name>Fielding</name>
   <name xml:lang="ca">Fielding</name>
   <name xml:lang="es">Fielding</name>
+  <name xml:lang="fr">Fielding</name>
+  <name xml:lang="nl">Fielding</name>
+  <name xml:lang="pt">Fielding</name>
   <name xml:lang="sv">Fielding</name>
   <name xml:lang="uk">Fielding</name>
   <name xml:lang="x-test">xxFieldingxx</name>
   <summary>Simple REST API testing tool</summary>
   <summary xml:lang="ca">Eina senzilla de proves de l'API REST</summary>
   <summary xml:lang="es">Sencilla herramienta para probar la API de REST</summary>
+  <summary xml:lang="fr">Un outil simple pour tester l'« API REST »</summary>
+  <summary xml:lang="nl">Eenvoudig hulpmiddel voor testen van REST API</summary>
+  <summary xml:lang="pt">Ferramenta de testes de API's REST simples</summary>
   <summary xml:lang="sv">Enkelt testverktyg för programmeringsgränssnittet REST</summary>
   <summary xml:lang="uk">Простий засіб тестування програмного інтерфейсу REST</summary>
   <summary xml:lang="x-test">xxSimple REST API testing toolxx</summary>
@@ -22,6 +28,9 @@
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
@@ -29,6 +38,9 @@
     <p>Fielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.</p>
     <p xml:lang="ca">El Fielding facilita provar l'API REST, permet que es facin sol·licituds dels mètodes HTTP més utilitzats.</p>
     <p xml:lang="es">Fielding facilita las pruebas de la API de REST. Permite realizar peticiones mediante los métodos HTTP más usados.</p>
+    <p xml:lang="fr">L'outil « Fielding » facilite les tests de votre « API REST ». Il permet d'effectuer des demandes pour les méthodes « http » les plus utilisées.</p>
+    <p xml:lang="nl">Fielding maakt het gemakkelijk om ue REST API te testen, het biedt u het maken van verzoeken voor de meest gebruikte HTTP-methoden.</p>
+    <p xml:lang="pt">O Fielding permite-lhe facilmente testar a sua API em REST, permitindo-lhe fazer pedidos para os métodos de HTTP mais usados.</p>
     <p xml:lang="sv">Fielding gör det enkelt att testa ditt REST-programmeringsgränssnitt, och låter dig utföra förfrågningar med de mest använda HTTP-metoderna.</p>
     <p xml:lang="uk">Fielding спрощує вам тестування вашого програмного інтерфейсу REST; програма надає вам змогу створювати запит для більшості використовуваних методів HTTP.</p>
     <p xml:lang="x-test">xxFielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.xx</p>
