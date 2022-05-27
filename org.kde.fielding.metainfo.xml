@@ -60,6 +60,12 @@
     <p xml:lang="uk">Fielding спрощує вам тестування вашого програмного інтерфейсу REST; програма надає вам змогу створювати запит для більшості використовуваних методів HTTP.</p>
     <p xml:lang="x-test">xxFielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.xx</p>
   </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://invent.kde.org/utilities/fielding/-/raw/master/.gitlab/fielding.png</image>
+      <caption>Main view making a GET request</caption>
+    </screenshot>
+  </screenshots>
   <requires>
     <display_length compare="ge">360</display_length>
   </requires>
