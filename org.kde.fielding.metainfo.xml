@@ -18,7 +18,7 @@
   <name xml:lang="tr">Fielding</name>
   <name xml:lang="uk">Fielding</name>
   <name xml:lang="x-test">xxFieldingxx</name>
-  <summary>Simple REST API testing tool</summary>
+  <summary>Test your REST APIs</summary>
   <summary xml:lang="ca">Eina senzilla de proves de l'API REST</summary>
   <summary xml:lang="es">Sencilla herramienta para probar la API de REST</summary>
   <summary xml:lang="fr">Un outil simple pour tester l'« API REST »</summary>
