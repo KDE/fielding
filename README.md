@@ -1,5 +1,5 @@
 # Roy
 
-A simple REST API testing tool
+Test your REST APIs
 
-![fielding window](.gitlab/fielding.png)
+![fielding window](https://cdn.kde.org/screenshots/fielding/fielding.png)
