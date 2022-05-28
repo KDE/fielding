@@ -4,6 +4,7 @@
 [Desktop Entry]
 Name=Fielding
 Name[ca]=Fielding
+Name[ca@valencia]=Fielding
 Name[es]=Fielding
 Name[fr]=Fielding
 Name[it]=Fielding
@@ -16,18 +17,6 @@ Name[tr]=Fielding
 Name[uk]=Fielding
 Name[x-test]=xxFieldingxx
 Comment=Test your REST APIs
-Comment[ca]=Eina senzilla de proves de l'API REST
-Comment[es]=Sencilla herramienta para probar la API de REST
-Comment[fr]=Outil simple pour tester l'« API REST »
-Comment[it]=Semplice strumento di test delle API REST
-Comment[nl]=Eenvoudig hulpmiddel voor testen van REST API
-Comment[pt]=Ferramenta simples de testes de API's REST
-Comment[sk]=Jednoduchý testovací nástroj na REST API
-Comment[sl]=Enostavno orodje testiranja REST API
-Comment[sv]=Enkelt testverktyg för programmeringsgränssnittet REST
-Comment[tr]=Yalın REST API sınama aracı
-Comment[uk]=Простий засіб тестування програмного інтерфейсу REST
-Comment[x-test]=xxSimple REST API testing toolxx
 Exec=fielding
 Icon=org.kde.fielding
 Type=Application
