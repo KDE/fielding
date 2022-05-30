@@ -23,6 +23,8 @@
   <summary xml:lang="ca">Proves de les API REST</summary>
   <summary xml:lang="es">Pruebe su API de REST</summary>
   <summary xml:lang="nl">Test uw REST API's</summary>
+  <summary xml:lang="sl">Testiraj vaše REST API-je</summary>
+  <summary xml:lang="sv">Prova dina REST-programmeringsgränssnitt</summary>
   <summary xml:lang="tr">REST API'lerinizi sınayın</summary>
   <summary xml:lang="uk">Перевірте ваші програмні інтерфейси REST</summary>
   <summary xml:lang="x-test">xxTest your REST APIsxx</summary>
@@ -64,6 +66,8 @@
       <caption xml:lang="ca">Vista principal fent una sol·licitud GET</caption>
       <caption xml:lang="es">Vista principal realizando una petición GET</caption>
       <caption xml:lang="nl">Hoofdweergave die een GET-verzoek doet</caption>
+      <caption xml:lang="sl">Glavni pogled izdelave zahtevka GET</caption>
+      <caption xml:lang="sv">Huvudvy som gör en GET-begäran</caption>
       <caption xml:lang="tr">Bir GET isteği yapan ana görünüm</caption>
       <caption xml:lang="uk">Основне вікно із запитом GET</caption>
       <caption xml:lang="x-test">xxMain view making a GET requestxx</caption>
