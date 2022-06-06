@@ -23,6 +23,7 @@
   <summary xml:lang="ca">Proves de les API REST</summary>
   <summary xml:lang="ca-valencia">Proves de les API REST</summary>
   <summary xml:lang="es">Pruebe su API de REST</summary>
+  <summary xml:lang="fr">Testez vos interfaces « API » « REST »</summary>
   <summary xml:lang="it">Prova le tua API REST</summary>
   <summary xml:lang="nl">Test uw REST API's</summary>
   <summary xml:lang="pt">Testar as suas API's REST</summary>
@@ -69,6 +70,7 @@
       <caption xml:lang="ca">Vista principal fent una sol·licitud GET</caption>
       <caption xml:lang="ca-valencia">Vista principal fent una solicitut GET</caption>
       <caption xml:lang="es">Vista principal realizando una petición GET</caption>
+      <caption xml:lang="fr">Affichage principal effectuant une demande « GET »</caption>
       <caption xml:lang="it">La vista principale che effettua una richiesta GET</caption>
       <caption xml:lang="nl">Hoofdweergave die een GET-verzoek doet</caption>
       <caption xml:lang="pt">Janela principal a fazer um pedido GET</caption>
