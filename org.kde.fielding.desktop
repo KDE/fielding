@@ -5,6 +5,7 @@
 Name=Fielding
 Name[ca]=Fielding
 Name[ca@valencia]=Fielding
+Name[de]=Fielding
 Name[es]=Fielding
 Name[fr]=Fielding
 Name[it]=Fielding
@@ -19,6 +20,7 @@ Name[x-test]=xxFieldingxx
 Comment=Test your REST APIs
 Comment[ca]=Proves de les API REST
 Comment[ca@valencia]=Proves de les API REST
+Comment[de]=Testen Sie Ihre REST-APIs
 Comment[es]=Pruebe su API de REST
 Comment[fr]=Tester vos interfaces « API » « REST »
 Comment[it]=Prova le tua API REST
