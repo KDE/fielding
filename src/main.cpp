@@ -6,6 +6,7 @@
 #include <QQmlApplicationEngine>
 #include <QUrl>
 #include <QtQml>
+#include <QQuickWindow>
 
 #include "about.h"
 #include "version-fielding.h"
@@ -16,6 +17,7 @@
 
 #include "fieldingconfig.h"
 
+#include "app.h"
 #include "controller.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
@@ -52,6 +54,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     AboutType about;
     qmlRegisterSingletonInstance("org.kde.fielding", 1, 0, "AboutType", &about);
 
+    App application;
+    qmlRegisterSingletonInstance("org.kde.fielding", 1, 0, "App", &application);
+
     Controller controller;
     qmlRegisterSingletonInstance("org.kde.fielding", 1, 0, "Controller", &controller);
 
@@ -63,6 +68,18 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     }
 
     KDBusService service(KDBusService::Unique);
+
+    // Restore window size and position
+    const auto rootObjects = engine.rootObjects();
+    for (auto obj : rootObjects) {
+        auto view = qobject_cast<QQuickWindow *>(obj);
+        if (view) {
+            if (view->isVisible()) {
+                application.restoreWindowGeometry(view);
+            }
+            break;
+        }
+    }
 
     return app.exec();
 }

@@ -4,6 +4,7 @@
 add_executable(fielding
     main.cpp
     about.cpp
+    app.cpp
     controller.cpp
     resources.qrc)
 
