@@ -17,7 +17,8 @@ target_link_libraries(fielding
     KF5::I18n
     KF5::CoreAddons
     KF5::ConfigCore
-    KF5::ConfigGui)
+    KF5::ConfigGui
+    KF5::DBusAddons)
 
 kconfig_add_kcfg_files(fielding GENERATE_MOC fieldingconfig.kcfgc)
 install(TARGETS fielding ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

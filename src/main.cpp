@@ -12,6 +12,7 @@
 #include <KAboutData>
 #include <KLocalizedContext>
 #include <KLocalizedString>
+#include <KDBusService>
 
 #include "fieldingconfig.h"
 
@@ -60,6 +61,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     if (engine.rootObjects().isEmpty()) {
         return -1;
     }
+
+    KDBusService service(KDBusService::Unique);
 
     return app.exec();
 }
