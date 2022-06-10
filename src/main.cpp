@@ -13,6 +13,8 @@
 #include <KDBusService>
 #include <KLocalizedString>
 
+constexpr auto APPLICATION_ID = "org.kde.fielding";
+
 #include "about.h"
 #include "version-fielding.h"
 #include "fieldingconfig.h"
@@ -48,16 +50,16 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     auto config = fieldingConfig::self();
 
-    qmlRegisterSingletonInstance("org.kde.fielding", 1, 0, "Config", config);
+    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
 
     AboutType about;
-    qmlRegisterSingletonInstance("org.kde.fielding", 1, 0, "AboutType", &about);
+    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
 
     App application;
-    qmlRegisterSingletonInstance("org.kde.fielding", 1, 0, "App", &application);
+    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
 
     Controller controller;
-    qmlRegisterSingletonInstance("org.kde.fielding", 1, 0, "Controller", &controller);
+    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
