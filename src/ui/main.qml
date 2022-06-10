@@ -52,8 +52,6 @@ Kirigami.ApplicationWindow {
             }
 
             QQC2.ScrollView {
-                visible: Config.method != 0 && Config.method != 4
-
                 QQC2.SplitView.minimumWidth: Kirigami.Units.gridUnit * 10
                 QQC2.SplitView.preferredWidth: Kirigami.Units.gridUnit * 17
                 QQC2.SplitView.fillHeight: true
@@ -62,6 +60,7 @@ Kirigami.ApplicationWindow {
                     id: bodyTextArea
 
                     wrapMode: Text.Wrap
+                    readOnly: Config.method == 0 || Config.method == 4
 
                     onEditingFinished: {
                         if (text.length > 0) {
