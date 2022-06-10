@@ -4,19 +4,18 @@
 #include <QApplication>
 #include <QIcon>
 #include <QQmlApplicationEngine>
-#include <QUrl>
-#include <QtQml>
 #include <QQuickWindow>
+#include <QtQml>
+#include <QUrl>
+
+#include <KAboutData>
+#include <KLocalizedContext>
+#include <KDBusService>
+#include <KLocalizedString>
 
 #include "about.h"
 #include "version-fielding.h"
-#include <KAboutData>
-#include <KLocalizedContext>
-#include <KLocalizedString>
-#include <KDBusService>
-
 #include "fieldingconfig.h"
-
 #include "app.h"
 #include "controller.h"
 
