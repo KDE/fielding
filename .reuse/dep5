@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Eloquens
+Upstream-Contact: Felipe Kinoshita <kinofhek@gmail.com>
+
+Files: logo.png org.kde.fielding.svg
+Copyright: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+License: LGPL-2.0-or-later
+
+Files: org.kde.fielding.json
+Copyright: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+License: CC0-1.0
+
