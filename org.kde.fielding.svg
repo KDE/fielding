@@ -1,9 +1,16 @@
-<svg width="40" height="30" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 2C0 0.89543 0.89543 0 2 0H38C39.1046 0 40 0.89543 40 2V28C40 29.1046 39.1046 30 38 30H2C0.89543 30 0 29.1046 0 28V2Z" fill="url(#paint0_linear_302_2)"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 27V28C0 29.1046 0.89543 30 2 30V29C0.89543 29 0 28.1046 0 27ZM2 30H38C39.1046 30 40 29.1046 40 28V27C40 28.1046 39.1046 29 38 29H2V30Z" fill="#031C5A" fill-opacity="0.1"/>
-<path d="M11.44 20.92C11.44 20.4267 11.56 20.08 11.8 19.88C12.04 19.68 12.3267 19.58 12.66 19.58C13.0067 19.58 13.3 19.68 13.54 19.88C13.7933 20.08 13.92 20.4267 13.92 20.92C13.92 21.4 13.7933 21.7467 13.54 21.96C13.3 22.1733 13.0067 22.28 12.66 22.28C12.3267 22.28 12.04 22.1733 11.8 21.96C11.56 21.7467 11.44 21.4 11.44 20.92ZM11.44 12.36C11.44 11.8533 11.56 11.5 11.8 11.3C12.04 11.1 12.3267 11 12.66 11C13.0067 11 13.3 11.1 13.54 11.3C13.7933 11.5 13.92 11.8533 13.92 12.36C13.92 12.84 13.7933 13.1867 13.54 13.4C13.3 13.6133 13.0067 13.72 12.66 13.72C12.3267 13.72 12.04 13.6133 11.8 13.4C11.56 13.1867 11.44 12.84 11.44 12.36ZM22.5916 7.72L17.2716 22H15.5516L20.8716 7.72H22.5916ZM30.033 7.72L24.713 22H22.993L28.313 7.72H30.033Z" fill="white"/>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="30" height="30" rx="2" fill="url(#paint0_linear_302_2)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 27V28C0 29.1046 1 30 2.05234 30L1.5 29C0.671572 29 0 28.1046 0 27ZM2.05234 30H28C29 30 30 29.1046 30 28V27C30 28.1046 29.3284 29 28.5 29H1.5L2.05234 30Z" fill="#031C5A" fill-opacity="0.1"/>
+<rect x="6" y="12" width="3" height="3" rx="1.5" fill="#FCFCFC"/>
+<rect x="5.5" y="11.5" width="4" height="4" rx="2" stroke="black" stroke-opacity="0.1"/>
+<rect x="6" y="19" width="3" height="3" rx="1.5" fill="#FCFCFC"/>
+<rect x="5.5" y="18.5" width="4" height="4" rx="2" stroke="black" stroke-opacity="0.1"/>
+<path d="M17 8H18.5L13.5 22H12L17 8Z" fill="#FCFCFC"/>
+<path d="M17 7.5H16.6476L16.5291 7.83183L11.5291 21.8318L11.2905 22.5H12H13.5H13.8524L13.9709 22.1682L18.9709 8.16817L19.2095 7.5H18.5H17Z" stroke="black" stroke-opacity="0.1"/>
+<path d="M22 8H23.5L18.5 22H17L22 8Z" fill="#FCFCFC"/>
+<path d="M22 7.5H21.6476L21.5291 7.83183L16.5291 21.8318L16.2905 22.5H17H18.5H18.8524L18.9709 22.1682L23.9709 8.16817L24.2095 7.5H23.5H22Z" stroke="black" stroke-opacity="0.1"/>
 <defs>
-<linearGradient id="paint0_linear_302_2" x1="3.5" y1="-1.93715e-06" x2="43.5" y2="40" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_302_2" x1="4" y1="-1.60933e-07" x2="22.5" y2="30" gradientUnits="userSpaceOnUse">
 <stop stop-color="#3A424A"/>
 <stop offset="1" stop-color="#232629"/>
 </linearGradient>
