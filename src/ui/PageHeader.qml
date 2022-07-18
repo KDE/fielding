@@ -12,7 +12,7 @@ RowLayout {
     id: pageHeader
 
     Layout.fillWidth: true
-    spacing: 0
+    spacing: Kirigami.Units.smallSpacing / 2
 
     QQC2.ComboBox {
         Layout.maximumWidth: Kirigami.Units.largeSpacing * 10
