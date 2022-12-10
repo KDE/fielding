@@ -124,4 +124,5 @@
   </provides>
   <url type="homepage">https://invent.kde.org/fhek/fielding</url>
   <url type="bugtracker">https://invent.kde.org/fhek/fielding/-/issues</url>
+  <launchable type="desktop-id">org.kde.fielding.desktop</launchable>
 </component>
