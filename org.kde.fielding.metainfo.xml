@@ -79,7 +79,7 @@
   <description>
     <p>Fielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.</p>
     <p xml:lang="ca">El Fielding facilita provar l'API REST, permet que es facin sol·licituds dels mètodes HTTP més utilitzats.</p>
-    <p xml:lang="ca-valencia">Fielding facilita provar la API REST, permet que es facen sol·licituds dels mètodes HTTP més utilitzats.</p>
+    <p xml:lang="ca-valencia">Fielding facilita provar l'API REST, permet que es facen sol·licituds dels mètodes HTTP més utilitzats.</p>
     <p xml:lang="en-GB">Fielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.</p>
     <p xml:lang="es">Fielding facilita las pruebas de la API de REST. Permite realizar peticiones mediante los métodos HTTP más usados.</p>
     <p xml:lang="eu">Fielding-ekin zure «REST» «API»ak probatzea erraza da, HTTP metodo erabilienen eskaerak egiten uzten dizu.</p>
