@@ -38,7 +38,7 @@
   <summary xml:lang="es">Pruebe su API de REST</summary>
   <summary xml:lang="eu">Probatu zure «REST» «API»ak</summary>
   <summary xml:lang="fr">Testez vos interfaces « API » « REST »</summary>
-  <summary xml:lang="gl">Proba as túas API REST</summary>
+  <summary xml:lang="gl">Proba as túas API REST.</summary>
   <summary xml:lang="it">Prova le tua API REST</summary>
   <summary xml:lang="ka">დატესტეთ თქვენი REST API-ები</summary>
   <summary xml:lang="ko">REST API 시험</summary>
@@ -112,7 +112,7 @@
       <caption xml:lang="es">Vista principal realizando una petición GET</caption>
       <caption xml:lang="eu">Ikuspegi nagusia «GET» eskaera bat egiten</caption>
       <caption xml:lang="fr">Affichage principal effectuant une demande « GET »</caption>
-      <caption xml:lang="gl">Vista principal facendo unha solicitude GET</caption>
+      <caption xml:lang="gl">Vista principal facendo unha solicitude GET.</caption>
       <caption xml:lang="it">La vista principale che effettua una richiesta GET</caption>
       <caption xml:lang="ka">მთავარი ხედი ახდენს GET მოთხოვნას</caption>
       <caption xml:lang="ko">GET 요청을 보내는 주 보기</caption>
