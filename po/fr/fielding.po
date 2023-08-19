@@ -1,121 +1,116 @@
-# Copyright (C) YEAR This file is copyright:
-# This file is distributed under the same license as the fielding package.
-#
-# Stefan Asserhäll <stefan.asserhall@bredband.net>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-08-17 00:48+0000\n"
-"PO-Revision-Date: 2023-08-17 08:44+0200\n"
-"Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
-"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
-"Language: sv\n"
+"PO-Revision-Date: 2023-08-18 05:30+0200\n"
+"Last-Translator: KDE Francophone <kde-francophone@kde.org>\n"
+"Language-Team: KDE Francophone <kde-francophone@kde.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.3\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Stefan Asserhäll"
+msgstr ""
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "stefan.asserhall@bredband.net"
+msgstr ""
 
 #: main.cpp:50
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
-msgstr "Fielding"
+msgstr ""
 
 #: main.cpp:54
 #, kde-format
 msgid "Simple REST API testing tool"
-msgstr "Enkelt testverktyg för REST programmeringsgränssnitt"
+msgstr ""
 
 #: main.cpp:58
 #, kde-format
 msgid "© 2022"
-msgstr "© 2022"
+msgstr ""
 
 #: main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr "Felipe Kinoshita"
+msgstr ""
 
 #: main.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "Upphovsman"
+msgstr ""
 
 #: ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "Fil"
+msgstr ""
 
 #: ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "Avsluta"
+msgstr ""
 
 #: ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "Hjälp"
+msgstr ""
 
 #: ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Rapportera fel…"
+msgstr ""
 
 #: ui/GlobalMenu.qml:33
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Roy"
-msgstr "Om Roy"
+msgstr ""
 
 #: ui/main.qml:15
 #, kde-format
 msgid "Fielding"
-msgstr "Fielding"
+msgstr ""
 
 #: ui/main.qml:98
 #, kde-format
 msgid "Body Text"
-msgstr "Innehållstext"
+msgstr ""
 
 #: ui/main.qml:130
 #, kde-format
 msgid "No Response Yet"
-msgstr "Inget svar ännu"
+msgstr ""
 
 #: ui/main.qml:131
 #, kde-format
 msgid "Your request response will appear here"
-msgstr "Svar på din begäran visas här"
+msgstr ""
 
 #: ui/main.qml:163
 #, kde-format
 msgid "Status: "
-msgstr "Status:"
+msgstr ""
 
 #: ui/PageHeader.qml:31
 #, kde-format
 msgid "Enter URL here…"
-msgstr "Skriv in webbadress här…"
+msgstr ""
 
 #: ui/PageHeader.qml:70
 #, kde-format
 msgid "About Fielding"
-msgstr "Om Fielding"
+msgstr ""
