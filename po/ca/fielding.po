@@ -4,10 +4,6 @@
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Josep M. Ferrer <txemaq@gmail.com>, 2023.
-#
-# This file is distributed under the same license as the fielding package.
-#
-# Josep M. Ferrer <txemaq@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
