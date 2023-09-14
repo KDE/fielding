@@ -21,12 +21,12 @@ void Controller::fetch(QUrl url, QJsonObject options)
     QByteArray inputData = doc.toJson();
 
     // handle request and timeout
-    int timeout = options.value("timeout").toInt();
+    int timeout = options.value(QStringLiteral("timeout")).toInt();
     QNetworkRequest request = QNetworkRequest(url);
     request.setTransferTimeout(timeout);
 
     // handle headers
-    auto headers = options.value("headers").toObject().toVariantMap();
+    auto headers = options.value(QStringLiteral("headers")).toObject().toVariantMap();
     QMap<QString, QVariant>::const_iterator j = headers.constBegin();
     while (j != headers.constEnd()) {
         request.setRawHeader(QByteArray(j.key().toLocal8Bit()), QByteArray(j.value().toString().toLocal8Bit()));
@@ -35,17 +35,17 @@ void Controller::fetch(QUrl url, QJsonObject options)
 
     // handle reply
     QNetworkReply* reply;
-    QString method = options.value("method").toString();
+    QString method = options.value(QStringLiteral("method")).toString();
 
-    if (method == "get") {
+    if (method == QStringLiteral("get")) {
         reply = m_manager.get(request);
-    } else if (method == "post") {
+    } else if (method == QStringLiteral("post")) {
         reply = m_manager.post(request, inputData);
-    } else if (method == "put") {
+    } else if (method == QStringLiteral("put")) {
         reply = m_manager.put(request, inputData);
-    } else if (method == "patch") {
+    } else if (method == QStringLiteral("patch")) {
         reply = m_manager.sendCustomRequest(request, "PATCH", inputData);
-    } else if (method == "delete") {
+    } else if (method == QStringLiteral("delete")) {
         reply = m_manager.deleteResource(request);
     } else {
         reply = m_manager.get(request);
@@ -53,15 +53,10 @@ void Controller::fetch(QUrl url, QJsonObject options)
 
     // read data
     QObject::connect(reply, &QNetworkReply::finished, [this, reply]() {
-        QString replyText = reply->readAll();
+        QJsonDocument data = QJsonDocument::fromJson(reply->readAll());
+        auto formattedString = QString::fromLatin1(data.toJson());
 
-        QJsonDocument data = QJsonDocument::fromJson(replyText.toUtf8());
-
-        QJsonDocument doc(data);
-        QByteArray ba = doc.toJson();
-        QString string = QString(ba);
-
-        Q_EMIT response(string);
+        Q_EMIT response(formattedString);
         Q_EMIT status(reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt(), reply->attribute(QNetworkRequest::HttpReasonPhraseAttribute).toString());
 
         reply->deleteLater(); // make sure to clean up

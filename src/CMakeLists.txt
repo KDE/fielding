@@ -16,11 +16,11 @@ target_link_libraries(fielding
     Qt::QuickControls2
     Qt::Svg
     Qt::Widgets
-    KF${QT_MAJOR_VERSION}::I18n
-    KF${QT_MAJOR_VERSION}::CoreAddons
-    KF${QT_MAJOR_VERSION}::ConfigCore
-    KF${QT_MAJOR_VERSION}::ConfigGui
-    KF${QT_MAJOR_VERSION}::DBusAddons)
+    KF6::I18n
+    KF6::CoreAddons
+    KF6::ConfigCore
+    KF6::ConfigGui
+    KF6::DBusAddons)
 
 kconfig_add_kcfg_files(fielding GENERATE_MOC fieldingconfig.kcfgc)
 install(TARGETS fielding ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
