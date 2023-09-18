@@ -38,7 +38,7 @@ msgstr "Fielding"
 #: main.cpp:54
 #, kde-format
 msgid "Simple REST API testing tool"
-msgstr "Eina senzilla de proves de l'API del Rest"
+msgstr "Eina senzilla de proves de l'API de Rest"
 
 #: main.cpp:58
 #, kde-format
