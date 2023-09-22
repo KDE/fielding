@@ -13,9 +13,6 @@
 #include <KDBusService>
 #include <KLocalizedString>
 
-constexpr auto APPLICATION_ID = "org.kde.fielding";
-
-#include "about.h"
 #include "version-fielding.h"
 #include "fieldingconfig.h"
 #include "app.h"
@@ -65,37 +62,16 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     auto config = fieldingConfig::self();
 
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
-
-    AboutType about;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
-
-    App application;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
-
-    Controller controller;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
+    qmlRegisterSingletonInstance("org.kde.fielding.config", 1, 0, "Config", config);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
+    engine.load(QUrl(QStringLiteral("qrc:/ui/main.qml")));
 
     if (engine.rootObjects().isEmpty()) {
         return -1;
     }
 
     KDBusService service(KDBusService::Unique);
-
-    // Restore window size and position
-    const auto rootObjects = engine.rootObjects();
-    for (auto obj : rootObjects) {
-        auto view = qobject_cast<QQuickWindow *>(obj);
-        if (view) {
-            if (view->isVisible()) {
-                application.restoreWindowGeometry(view);
-            }
-            break;
-        }
-    }
 
     return app.exec();
 }

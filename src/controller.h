@@ -6,10 +6,14 @@
 #include <QObject>
 #include <QJsonObject>
 #include <QNetworkAccessManager>
+#include <QQmlEngine>
 
 class Controller : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
+
     Q_PROPERTY(QJsonObject data MEMBER m_data NOTIFY dataChanged)
 
 public:

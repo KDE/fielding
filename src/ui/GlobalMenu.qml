@@ -5,7 +5,7 @@ import QtQuick 2.15
 import Qt.labs.platform 1.1 as Labs
 import org.kde.kirigami 2.19 as Kirigami
 
-import org.kde.fielding 1.0
+import org.kde.fielding
 
 Labs.MenuBar {
     id: menuBar

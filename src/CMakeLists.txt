@@ -3,12 +3,19 @@
 
 add_executable(fielding
     main.cpp
-    about.cpp
     app.cpp
     controller.cpp
-    resources.qrc)
+)
 
-target_link_libraries(fielding
+qt_add_qml_module(fielding URI org.kde.fielding NO_RESOURCE_TARGET_PATH
+    QML_FILES
+        ui/About.qml
+        ui/GlobalMenu.qml
+        ui/main.qml
+        ui/PageHeader.qml
+)
+
+target_link_libraries(fielding PRIVATE
     Qt::Core
     Qt::Gui
     Qt::Qml
