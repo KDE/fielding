@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-24 00:45+0000\n"
-"PO-Revision-Date: 2023-08-17 09:11+0300\n"
+"PO-Revision-Date: 2023-09-24 08:34+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -35,15 +35,14 @@ msgid "Fielding"
 msgstr "Fielding"
 
 #: main.cpp:51
-#, fuzzy, kde-format
-#| msgid "Simple REST API testing tool"
+#, kde-format
 msgid "REST API testing tool"
-msgstr "Простий засіб тестування програмного інтерфейсу REST"
+msgstr "Інструмент тестування програмного інтерфейсу REST"
 
 #: main.cpp:55
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
-msgstr ""
+msgstr "© Спільнота KDE, 2022–2023"
 
 #: main.cpp:56
 #, kde-format

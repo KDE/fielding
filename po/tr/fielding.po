@@ -34,15 +34,14 @@ msgid "Fielding"
 msgstr "Fielding"
 
 #: main.cpp:51
-#, fuzzy, kde-format
-#| msgid "Simple REST API testing tool"
+#, kde-format
 msgid "REST API testing tool"
-msgstr "Yalın REST API'si sınama aracı"
+msgstr "REST API'si sınama aracı"
 
 #: main.cpp:55
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
-msgstr ""
+msgstr "© 2022 - 2023 KDE Topluluğu"
 
 #: main.cpp:56
 #, kde-format
@@ -120,6 +119,3 @@ msgstr "Buraya URL gir…"
 #, kde-format
 msgid "About Fielding"
 msgstr "Fielding Hakkında"
-
-#~ msgid "© 2022"
-#~ msgstr "© 2022"
