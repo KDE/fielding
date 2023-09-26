@@ -119,6 +119,3 @@ msgstr "Zde zadejte URL…"
 #, kde-format
 msgid "About Fielding"
 msgstr "O aplikaci Fielding"
-
-#~ msgid "© 2022"
-#~ msgstr "© 2022"
