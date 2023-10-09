@@ -1,31 +1,31 @@
-# Copyright (C) YEAR This file is copyright:
+# translation of fielding.pot to esperanto
+# Copyright (C) 2022 Free Software Foundation, Inc.
 # This file is distributed under the same license as the fielding package.
-# Shinjo Park <kde@peremen.name>, 2023.
+# Oliver Kellogg <okellogg@users.sourceforge.net, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-24 00:45+0000\n"
-"PO-Revision-Date: 2023-10-08 22:42+0200\n"
-"Last-Translator: Shinjo Park <kde@peremen.name>\n"
-"Language-Team: Korean <kde-kr@kde.org>\n"
-"Language: ko\n"
+"PO-Revision-Date: 2023-10-08 17:51+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
+"Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "박신조"
+msgstr "Oliver Kellogg"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde@peremen.name"
+msgstr "okellogg@users.sourceforge.net"
 
 #: main.cpp:47
 #, kde-format
@@ -36,12 +36,12 @@ msgstr "Fielding"
 #: main.cpp:51
 #, kde-format
 msgid "REST API testing tool"
-msgstr "REST API 시험 도구"
+msgstr "Testilo por REST-API"
 
 #: main.cpp:55
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
-msgstr "© 2022 - 2023 KDE Community"
+msgstr "© 2022 - 2023 KDE-Komunumo"
 
 #: main.cpp:56
 #, kde-format
@@ -53,37 +53,37 @@ msgstr "Felipe Kinoshita"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "작성자"
+msgstr "Aŭtoro"
 
 #: ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "파일"
+msgstr "Dosiero"
 
 #: ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "끝내기"
+msgstr "Forlasi"
 
 #: ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "도움말"
+msgstr "Helpo"
 
 #: ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "버그 보고…"
+msgstr "Raporti Cimon…"
 
 #: ui/GlobalMenu.qml:33
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Roy"
-msgstr "Roy 정보"
+msgstr "Pri Roy"
 
 #: ui/main.qml:16
 #, kde-format
@@ -93,32 +93,29 @@ msgstr "Fielding"
 #: ui/main.qml:99
 #, kde-format
 msgid "Body Text"
-msgstr "본문 텍스트"
+msgstr "Korpa Teksto"
 
 #: ui/main.qml:131
 #, kde-format
 msgid "No Response Yet"
-msgstr "응답이 아직 없음"
+msgstr "Ankoraŭ Neniu Respondo"
 
 #: ui/main.qml:132
 #, kde-format
 msgid "Your request response will appear here"
-msgstr "요청 응답이 여기에 표시됩니다"
+msgstr "Via respondo al peto aperos ĉi tie"
 
 #: ui/main.qml:164
 #, kde-format
 msgid "Status: "
-msgstr "상태: "
+msgstr "Statuso: "
 
 #: ui/PageHeader.qml:32
 #, kde-format
 msgid "Enter URL here…"
-msgstr "URL 입력…"
+msgstr "Enigi URL ĉi tie…"
 
 #: ui/PageHeader.qml:71
 #, kde-format
 msgid "About Fielding"
-msgstr "Fielding 정보"
-
-#~ msgid "© 2022"
-#~ msgstr "© 2022"
+msgstr "Pri Fielding"

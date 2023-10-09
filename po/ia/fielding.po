@@ -1,13 +1,13 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the fielding package.
 #
-# giovanni <g.sora@tiscali.it>, 2023.
+# SPDX-FileCopyrightText: 2023 giovanni <g.sora@tiscali.it>
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-24 00:45+0000\n"
-"PO-Revision-Date: 2023-09-25 10:29+0200\n"
+"PO-Revision-Date: 2023-10-08 22:10+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 23.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -31,12 +31,12 @@ msgstr "g.sora@tiscali.it"
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
-msgstr ""
+msgstr "Fielding"
 
 #: main.cpp:51
 #, kde-format
 msgid "REST API testing tool"
-msgstr ""
+msgstr "Instrumento de testar REST API"
 
 #: main.cpp:55
 #, kde-format
@@ -83,27 +83,27 @@ msgstr "Reporta Bug…"
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Roy"
-msgstr ""
+msgstr "A proposito de Roy"
 
 #: ui/main.qml:16
 #, kde-format
 msgid "Fielding"
-msgstr ""
+msgstr "Fielding"
 
 #: ui/main.qml:99
 #, kde-format
 msgid "Body Text"
-msgstr ""
+msgstr "Texto de corpore"
 
 #: ui/main.qml:131
 #, kde-format
 msgid "No Response Yet"
-msgstr ""
+msgstr "Ancora nulle responsa"
 
 #: ui/main.qml:132
 #, kde-format
 msgid "Your request response will appear here"
-msgstr ""
+msgstr "Tu responsa de requesta apparera hic"
 
 #: ui/main.qml:164
 #, kde-format
@@ -118,4 +118,4 @@ msgstr "Inserta URL hic…"
 #: ui/PageHeader.qml:71
 #, kde-format
 msgid "About Fielding"
-msgstr ""
+msgstr "A proposito de Fielding"
