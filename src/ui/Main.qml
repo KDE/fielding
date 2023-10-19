@@ -86,17 +86,12 @@ Kirigami.ApplicationWindow {
                         }
                     }
 
+                    placeholderText: i18n("Request body...")
+
                     background: Rectangle {
                         Kirigami.Theme.colorSet: Kirigami.Theme.View
                         Kirigami.Theme.inherit: false
                         color: Kirigami.Theme.backgroundColor
-
-                        Kirigami.PlaceholderMessage {
-                            anchors.centerIn: parent
-                            width: parent.width - Kirigami.Units.largeSpacing * 4
-                            visible: bodyTextArea.text.length <= 0
-                            text: i18n("Body Text")
-                        }
                     }
 
                     Kirigami.SpellCheck.enabled: false
