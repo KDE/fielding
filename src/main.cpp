@@ -65,7 +65,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     qmlRegisterSingletonInstance("org.kde.fielding.config", 1, 0, "Config", config);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.load(QUrl(QStringLiteral("qrc:/ui/main.qml")));
+    engine.loadFromModule(QStringLiteral("org.kde.fielding"), QStringLiteral("Main"));
 
     if (engine.rootObjects().isEmpty()) {
         return -1;

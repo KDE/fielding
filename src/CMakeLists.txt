@@ -7,11 +7,11 @@ add_executable(fielding
     controller.cpp
 )
 
-qt_add_qml_module(fielding URI org.kde.fielding NO_RESOURCE_TARGET_PATH
+qt_add_qml_module(fielding URI org.kde.fielding
     QML_FILES
         ui/About.qml
         ui/GlobalMenu.qml
-        ui/main.qml
+        ui/Main.qml
         ui/PageHeader.qml
 )
 
