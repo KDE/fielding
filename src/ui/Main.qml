@@ -99,6 +99,8 @@ Kirigami.ApplicationWindow {
                         }
                     }
 
+                    Kirigami.SpellCheck.enabled: false
+
                     SyntaxHighlighter {
                         textEdit: bodyTextArea
                         definition: "JSON"
