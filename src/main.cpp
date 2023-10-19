@@ -15,16 +15,11 @@
 
 #include "version-fielding.h"
 #include "fieldingconfig.h"
-#include "app.h"
 #include "controller.h"
 #include <QQuickStyle>
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-#endif
-
 #ifdef Q_OS_ANDROID
     QGuiApplication app(argc, argv);
     QQuickStyle::setStyle(QStringLiteral("org.kde.breeze"));
