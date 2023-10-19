@@ -79,7 +79,6 @@ Kirigami.ApplicationWindow {
                     id: bodyTextArea
 
                     wrapMode: Text.Wrap
-                    readOnly: Config.method == 0 || Config.method == 4
 
                     onEditingFinished: {
                         if (text.length > 0) {
