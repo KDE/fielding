@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-24 00:45+0000\n"
+"POT-Creation-Date: 2023-10-20 01:39+0000\n"
 "PO-Revision-Date: 2023-09-30 10:11+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -28,29 +28,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "lukasz.wojnilowicz@gmail.com"
 
-#: main.cpp:47
+#: main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: main.cpp:51
+#: main.cpp:46
 #, kde-format
 msgid "REST API testing tool"
 msgstr "Narzędzie próbowania API REST"
 
-#: main.cpp:55
+#: main.cpp:50
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
 msgstr "© 2022 - 2023 Społeczność KDE"
 
-#: main.cpp:56
+#: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:56
+#: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -86,27 +86,27 @@ msgctxt "@menu-action"
 msgid "About Roy"
 msgstr "O Roy"
 
-#: ui/main.qml:16
+#: ui/Main.qml:16
 #, kde-format
 msgid "Fielding"
 msgstr "Fielding"
 
-#: ui/main.qml:99
+#: ui/Main.qml:89
 #, kde-format
-msgid "Body Text"
-msgstr "Treść"
+msgid "Request body..."
+msgstr ""
 
-#: ui/main.qml:131
+#: ui/Main.qml:127
 #, kde-format
 msgid "No Response Yet"
 msgstr "Jeszcze bez odpowiedzi"
 
-#: ui/main.qml:132
+#: ui/Main.qml:128
 #, kde-format
 msgid "Your request response will appear here"
 msgstr "Twoja odpowiedź na prośbę pojawi się tutaj"
 
-#: ui/main.qml:164
+#: ui/Main.qml:160
 #, kde-format
 msgid "Status: "
 msgstr "Stan: "
@@ -120,3 +120,6 @@ msgstr "Tutaj wpisz adres URL…"
 #, kde-format
 msgid "About Fielding"
 msgstr "O Fielding"
+
+#~ msgid "Body Text"
+#~ msgstr "Treść"

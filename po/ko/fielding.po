@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-24 00:45+0000\n"
+"POT-Creation-Date: 2023-10-20 01:39+0000\n"
 "PO-Revision-Date: 2023-10-08 22:42+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -27,29 +27,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde@peremen.name"
 
-#: main.cpp:47
+#: main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: main.cpp:51
+#: main.cpp:46
 #, kde-format
 msgid "REST API testing tool"
 msgstr "REST API 시험 도구"
 
-#: main.cpp:55
+#: main.cpp:50
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
 msgstr "© 2022 - 2023 KDE Community"
 
-#: main.cpp:56
+#: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:56
+#: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -85,27 +85,27 @@ msgctxt "@menu-action"
 msgid "About Roy"
 msgstr "Roy 정보"
 
-#: ui/main.qml:16
+#: ui/Main.qml:16
 #, kde-format
 msgid "Fielding"
 msgstr "Fielding"
 
-#: ui/main.qml:99
+#: ui/Main.qml:89
 #, kde-format
-msgid "Body Text"
-msgstr "본문 텍스트"
+msgid "Request body..."
+msgstr ""
 
-#: ui/main.qml:131
+#: ui/Main.qml:127
 #, kde-format
 msgid "No Response Yet"
 msgstr "응답이 아직 없음"
 
-#: ui/main.qml:132
+#: ui/Main.qml:128
 #, kde-format
 msgid "Your request response will appear here"
 msgstr "요청 응답이 여기에 표시됩니다"
 
-#: ui/main.qml:164
+#: ui/Main.qml:160
 #, kde-format
 msgid "Status: "
 msgstr "상태: "
@@ -119,6 +119,9 @@ msgstr "URL 입력…"
 #, kde-format
 msgid "About Fielding"
 msgstr "Fielding 정보"
+
+#~ msgid "Body Text"
+#~ msgstr "본문 텍스트"
 
 #~ msgid "© 2022"
 #~ msgstr "© 2022"
