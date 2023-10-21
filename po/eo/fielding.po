@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-20 01:39+0000\n"
-"PO-Revision-Date: 2023-10-08 17:51+0100\n"
+"PO-Revision-Date: 2023-10-20 19:22+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
@@ -93,7 +93,7 @@ msgstr "Fielding"
 #: ui/Main.qml:89
 #, kde-format
 msgid "Request body..."
-msgstr ""
+msgstr "Korpo de alpeto..."
 
 #: ui/Main.qml:127
 #, kde-format
@@ -119,6 +119,3 @@ msgstr "Enigi URL ĉi tie…"
 #, kde-format
 msgid "About Fielding"
 msgstr "Pri Fielding"
-
-#~ msgid "Body Text"
-#~ msgstr "Korpa Teksto"

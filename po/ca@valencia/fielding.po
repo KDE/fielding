@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-20 01:39+0000\n"
-"PO-Revision-Date: 2023-09-24 10:36+0200\n"
+"PO-Revision-Date: 2023-10-20 09:21+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -95,7 +95,7 @@ msgstr "Fielding"
 #: ui/Main.qml:89
 #, kde-format
 msgid "Request body..."
-msgstr ""
+msgstr "Sol·licita el cos..."
 
 #: ui/Main.qml:127
 #, kde-format
@@ -121,6 +121,3 @@ msgstr "Introduïu ací un URL…"
 #, kde-format
 msgid "About Fielding"
 msgstr "Quant a Fielding"
-
-#~ msgid "Body Text"
-#~ msgstr "Text del cos"
