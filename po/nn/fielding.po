@@ -122,6 +122,3 @@ msgstr "Skriv inn nettadresse …"
 #, kde-format
 msgid "About Fielding"
 msgstr "Om Fielding"
-
-#~ msgid "Body Text"
-#~ msgstr "Meldingstekst"
