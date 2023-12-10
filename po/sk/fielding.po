@@ -1,37 +1,35 @@
+# translation of fielding.po to Slovak
+# SPDX-FileCopyrightText: 2023 Roman Paholík <wizzardsk@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeorg\n"
+"Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-20 01:39+0000\n"
-"PO-Revision-Date: 2023-12-09 09:25\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2023-12-09 09:19+0100\n"
+"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: kdeorg\n"
-"X-Crowdin-Project-ID: 269464\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/fielding/fielding.pot\n"
-"X-Crowdin-File-ID: 46117\n"
+"X-Generator: Lokalize 23.08.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Roman Paholík"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "wizzardsk@gmail.com"
 
 #: main.cpp:42
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
-msgstr ""
+msgstr "Fielding"
 
 #: main.cpp:46
 #, kde-format
@@ -41,43 +39,43 @@ msgstr ""
 #: main.cpp:50
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
-msgstr ""
+msgstr "© 2022 - 2023 KDE komunita"
 
 #: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "Felipe Kinoshita"
 
 #: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr ""
+msgstr "Súbor"
 
 #: ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr ""
+msgstr "Ukončiť"
 
 #: ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr ""
+msgstr "Pomocník"
 
 #: ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr ""
+msgstr "Nahlásiť chybu..."
 
 #: ui/GlobalMenu.qml:33
 #, kde-format
@@ -88,7 +86,7 @@ msgstr ""
 #: ui/Main.qml:16
 #, kde-format
 msgid "Fielding"
-msgstr ""
+msgstr "Fielding"
 
 #: ui/Main.qml:89
 #, kde-format
@@ -108,12 +106,12 @@ msgstr ""
 #: ui/Main.qml:160
 #, kde-format
 msgid "Status: "
-msgstr ""
+msgstr "Stav:"
 
 #: ui/PageHeader.qml:32
 #, kde-format
 msgid "Enter URL here…"
-msgstr ""
+msgstr "Tu zadajte URL..."
 
 #: ui/PageHeader.qml:71
 #, kde-format
