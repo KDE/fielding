@@ -1,0 +1,122 @@
+# Lithuanian translations for fielding package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the fielding package.
+# Automatically generated, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fielding\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-10-20 01:39+0000\n"
+"PO-Revision-Date: 2023-10-20 01:39+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: main.cpp:42
+#, kde-format
+msgctxt "@title"
+msgid "Fielding"
+msgstr ""
+
+#: main.cpp:46
+#, kde-format
+msgid "REST API testing tool"
+msgstr ""
+
+#: main.cpp:50
+#, kde-format
+msgid "© 2022 - 2023 KDE Community"
+msgstr ""
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr ""
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#: ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr ""
+
+#: ui/GlobalMenu.qml:17
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr ""
+
+#: ui/GlobalMenu.qml:24
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr ""
+
+#: ui/GlobalMenu.qml:27
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr ""
+
+#: ui/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Roy"
+msgstr ""
+
+#: ui/Main.qml:16
+#, kde-format
+msgid "Fielding"
+msgstr ""
+
+#: ui/Main.qml:89
+#, kde-format
+msgid "Request body..."
+msgstr ""
+
+#: ui/Main.qml:127
+#, kde-format
+msgid "No Response Yet"
+msgstr ""
+
+#: ui/Main.qml:128
+#, kde-format
+msgid "Your request response will appear here"
+msgstr ""
+
+#: ui/Main.qml:160
+#, kde-format
+msgid "Status: "
+msgstr ""
+
+#: ui/PageHeader.qml:32
+#, kde-format
+msgid "Enter URL here…"
+msgstr ""
+
+#: ui/PageHeader.qml:71
+#, kde-format
+msgid "About Fielding"
+msgstr ""
