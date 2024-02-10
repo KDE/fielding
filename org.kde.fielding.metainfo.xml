@@ -55,7 +55,7 @@
   <summary xml:lang="pt-BR">Teste suas APIs REST</summary>
   <summary xml:lang="sl">Testiraj vaše REST API-je</summary>
   <summary xml:lang="sv">Prova dina REST-programmeringsgränssnitt</summary>
-  <summary xml:lang="tr">REST API'si Sınayıcısı</summary>
+  <summary xml:lang="tr">REST API’si Sınayıcısı</summary>
   <summary xml:lang="uk">Перевірте ваші програмні інтерфейси REST</summary>
   <summary xml:lang="x-test">xxTest your REST APIsxx</summary>
   <summary xml:lang="zh-CN">测试您的 REST API</summary>
@@ -111,7 +111,7 @@
     <p xml:lang="pt-BR">Fielding facilita o teste de sua API REST, permite que você faça requests para os métodos HTTP mais usados.</p>
     <p xml:lang="sl">Fielding omogoča enostavno testiranje REST API, dovoljuje postavljanje zahtevkov za največkrat uporabljene metode HTTP.</p>
     <p xml:lang="sv">Fielding gör det enkelt att testa ditt REST-programmeringsgränssnitt, och låter dig utföra förfrågningar med de mest använda HTTP-metoderna.</p>
-    <p xml:lang="tr">Fielding; REST API'nizi kolayca sınamanıza izin verir. En çok kullanılan HTTP yöntemleri için istekler yapabilrsiniz.</p>
+    <p xml:lang="tr">Fielding; REST API’nizi kolayca sınamanıza izin verir. En çok kullanılan HTTP yöntemleri için istekler yapabilrsiniz.</p>
     <p xml:lang="uk">Fielding спрощує вам тестування вашого програмного інтерфейсу REST; програма надає вам змогу створювати запит для більшості використовуваних методів HTTP.</p>
     <p xml:lang="x-test">xxFielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.xx</p>
     <p xml:lang="zh-TW">Fielding 讓測試 REST API 變得容易，讓您使用最常用的 HTTP 方法進行請求。</p>
