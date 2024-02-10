@@ -1,31 +1,32 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the fielding package.
 #
-# SPDX-FileCopyrightText: 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2024 Alexander Yavorsky <kekcuha@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-20 01:39+0000\n"
-"PO-Revision-Date: 2024-02-09 17:45+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
-"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
-"Language: tr\n"
+"PO-Revision-Date: 2024-02-09 23:00+0300\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 24.01.95\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Emir SARI"
+msgstr "Александр Яворский"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "emir_sari@icloud.com"
+msgstr "kekcuha@gmail.com"
 
 #: main.cpp:42
 #, kde-format
@@ -36,12 +37,12 @@ msgstr "Fielding"
 #: main.cpp:46
 #, kde-format
 msgid "REST API testing tool"
-msgstr "REST API’si sınama aracı"
+msgstr "Инструмент тестирования REST API"
 
 #: main.cpp:50
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
-msgstr "© 2022 - 2023 KDE Topluluğu"
+msgstr "© Сообщество KDE, 2022-2023"
 
 #: main.cpp:51
 #, kde-format
@@ -53,37 +54,37 @@ msgstr "Felipe Kinoshita"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "Yazar"
+msgstr "Автор"
 
 #: ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "Dosya"
+msgstr "Файл"
 
 #: ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "Çık"
+msgstr "Выход"
 
 #: ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "Yardım"
+msgstr "Справка"
 
 #: ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Hata Bildir…"
+msgstr "Сообщить об ошибке…"
 
 #: ui/GlobalMenu.qml:33
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Roy"
-msgstr "Roy Hakkında"
+msgstr ""
 
 #: ui/Main.qml:16
 #, kde-format
@@ -93,32 +94,29 @@ msgstr "Fielding"
 #: ui/Main.qml:89
 #, kde-format
 msgid "Request body..."
-msgstr "Gövde iste…"
+msgstr "Тело ответа…"
 
 #: ui/Main.qml:127
 #, kde-format
 msgid "No Response Yet"
-msgstr "Henüz yanıt yok"
+msgstr ""
 
 #: ui/Main.qml:128
 #, kde-format
 msgid "Your request response will appear here"
-msgstr "İstek yanıtınız burada görünecek"
+msgstr ""
 
 #: ui/Main.qml:160
 #, kde-format
 msgid "Status: "
-msgstr "Durum: "
+msgstr "Состояние: "
 
 #: ui/PageHeader.qml:32
 #, kde-format
 msgid "Enter URL here…"
-msgstr "Buraya URL gir…"
+msgstr "Укажите здесь URL…"
 
 #: ui/PageHeader.qml:71
 #, kde-format
 msgid "About Fielding"
-msgstr "Fielding Hakkında"
-
-#~ msgid "Body Text"
-#~ msgstr "Gövde Metni"
+msgstr "О программе Fielding"
