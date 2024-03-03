@@ -1,0 +1,122 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the fielding package.
+# Sergiu Bivol <sergiu@cip.md>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fielding\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-10-20 01:39+0000\n"
+"PO-Revision-Date: 2024-03-02 15:25+0000\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sergiu Bivol"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sergiu@cip.md"
+
+#: main.cpp:42
+#, kde-format
+msgctxt "@title"
+msgid "Fielding"
+msgstr "Fielding"
+
+#: main.cpp:46
+#, kde-format
+msgid "REST API testing tool"
+msgstr "Unealtă de testare a API-urilor REST"
+
+#: main.cpp:50
+#, kde-format
+msgid "© 2022 - 2023 KDE Community"
+msgstr "© 2022 - 2023 Comunitatea KDE"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autor"
+
+#: ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Fișier"
+
+#: ui/GlobalMenu.qml:17
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Termină"
+
+#: ui/GlobalMenu.qml:24
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Ajutor"
+
+#: ui/GlobalMenu.qml:27
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Raportează defect…"
+
+#: ui/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Roy"
+msgstr "Despre Roy"
+
+#: ui/Main.qml:16
+#, kde-format
+msgid "Fielding"
+msgstr "Fielding"
+
+#: ui/Main.qml:89
+#, kde-format
+msgid "Request body..."
+msgstr "Corp cerere…"
+
+#: ui/Main.qml:127
+#, kde-format
+msgid "No Response Yet"
+msgstr "Niciun răspuns deocamdată"
+
+#: ui/Main.qml:128
+#, kde-format
+msgid "Your request response will appear here"
+msgstr "Răspunsul la cererea dumneavoastră va apărea aici"
+
+#: ui/Main.qml:160
+#, kde-format
+msgid "Status: "
+msgstr "Stare: "
+
+#: ui/PageHeader.qml:32
+#, kde-format
+msgid "Enter URL here…"
+msgstr "Introduceți URL-ul aici…"
+
+#: ui/PageHeader.qml:71
+#, kde-format
+msgid "About Fielding"
+msgstr "Despre Fielding"
