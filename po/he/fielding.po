@@ -1,31 +1,31 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the fielding package.
+#
+# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeorg\n"
+"Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-20 01:39+0000\n"
-"PO-Revision-Date: 2024-03-25 19:39\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2024-03-25 20:58+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: kdeorg\n"
-"X-Crowdin-Project-ID: 269464\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/fielding/fielding.pot\n"
-"X-Crowdin-File-ID: 46117\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE China, Guo Yunhe"
+msgstr "צוות התרגום של KDE ישראל"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org, i@guoyunhe.me"
+msgstr "kde-l10n-he@kde.org"
 
 #: main.cpp:42
 #, kde-format
@@ -36,54 +36,54 @@ msgstr "Fielding"
 #: main.cpp:46
 #, kde-format
 msgid "REST API testing tool"
-msgstr "REST API 测试工具"
+msgstr "כלי לבדיקת ממשקי API מסוג REST"
 
 #: main.cpp:50
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
-msgstr "© 2022 - 2023 KDE 社区"
+msgstr "© 2022 ‏- 2023 קהילת KDE"
 
 #: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr "Felipe Kinoshita"
+msgstr "פליפה קינושיטה"
 
 #: main.cpp:51
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "作者"
+msgstr "יוצר"
 
 #: ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "文件"
+msgstr "קובץ"
 
 #: ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "退出"
+msgstr "יציאה"
 
 #: ui/GlobalMenu.qml:24
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "帮助"
+msgstr "עזרה"
 
 #: ui/GlobalMenu.qml:27
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "报告程序缺陷…"
+msgstr "דיווח על תקלה…"
 
 #: ui/GlobalMenu.qml:33
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Roy"
-msgstr "关于 Roy"
+msgstr "על Roy"
 
 #: ui/Main.qml:16
 #, kde-format
@@ -93,29 +93,29 @@ msgstr "Fielding"
 #: ui/Main.qml:89
 #, kde-format
 msgid "Request body..."
-msgstr "请求体..."
+msgstr "גוף הבקשה…"
 
 #: ui/Main.qml:127
 #, kde-format
 msgid "No Response Yet"
-msgstr "尚未回应"
+msgstr "אין תגובה עדיין"
 
 #: ui/Main.qml:128
 #, kde-format
 msgid "Your request response will appear here"
-msgstr "您的请求响应将显示在这里"
+msgstr "התגובה לבקשה שלך תופיע כאן"
 
 #: ui/Main.qml:160
 #, kde-format
 msgid "Status: "
-msgstr "状态："
+msgstr "מצב:"
 
 #: ui/PageHeader.qml:32
 #, kde-format
 msgid "Enter URL here…"
-msgstr "请输入 URL..."
+msgstr "נא למלא כאן כתובת…"
 
 #: ui/PageHeader.qml:71
 #, kde-format
 msgid "About Fielding"
-msgstr "关于 Fielding"
+msgstr "על Fielding"
