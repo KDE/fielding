@@ -9,7 +9,6 @@ add_executable(fielding
 
 qt_add_qml_module(fielding URI org.kde.fielding
     QML_FILES
-        ui/About.qml
         ui/GlobalMenu.qml
         ui/Main.qml
         ui/PageHeader.qml

@@ -71,7 +71,7 @@ RowLayout {
             text: i18n("About Fielding")
             icon.name: "help-about"
             shortcut: StandardKey.HelpContents
-            onTriggered: pageStack.layers.push("About.qml")
+            onTriggered: pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
             enabled: pageStack.layers.depth <= 1
         }
 
