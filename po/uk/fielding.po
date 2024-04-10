@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-20 01:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:40+0000\n"
 "PO-Revision-Date: 2023-10-20 08:44+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -116,10 +116,33 @@ msgstr "Стан: "
 msgid "Enter URL here…"
 msgstr "Тут можна ввести адресу…"
 
-#: ui/PageHeader.qml:71
+#: ui/PageHeader.qml:76
 #, kde-format
+msgid "Menu"
+msgstr ""
+
+#: ui/PageHeader.qml:85
+#, fuzzy, kde-format
+#| msgid "About Fielding"
+msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "Про «Fielding»"
+
+#: ui/PageHeader.qml:92
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "About Roy"
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "Про «Roy»"
+
+#: ui/PageHeader.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "Quit"
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Вийти"
 
 #~ msgid "Body Text"
 #~ msgstr "Текст вмісту"

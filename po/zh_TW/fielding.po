@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-20 01:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:40+0000\n"
 "PO-Revision-Date: 2023-12-09 19:44+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -115,7 +115,30 @@ msgstr "狀態："
 msgid "Enter URL here…"
 msgstr "在此輸入網址…"
 
-#: ui/PageHeader.qml:71
+#: ui/PageHeader.qml:76
 #, kde-format
+msgid "Menu"
+msgstr ""
+
+#: ui/PageHeader.qml:85
+#, fuzzy, kde-format
+#| msgid "About Fielding"
+msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "關於 Fielding"
+
+#: ui/PageHeader.qml:92
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "About Roy"
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "關於 Roy"
+
+#: ui/PageHeader.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "Quit"
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "離開"

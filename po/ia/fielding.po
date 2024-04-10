@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-20 01:39+0000\n"
+"POT-Creation-Date: 2024-04-10 00:40+0000\n"
 "PO-Revision-Date: 2023-10-20 09:02+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -115,10 +115,33 @@ msgstr "Stato: "
 msgid "Enter URL here…"
 msgstr "Inserta URL hic…"
 
-#: ui/PageHeader.qml:71
+#: ui/PageHeader.qml:76
 #, kde-format
+msgid "Menu"
+msgstr ""
+
+#: ui/PageHeader.qml:85
+#, fuzzy, kde-format
+#| msgid "About Fielding"
+msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "A proposito de Fielding"
+
+#: ui/PageHeader.qml:92
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "About Roy"
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "A proposito de Roy"
+
+#: ui/PageHeader.qml:99
+#, fuzzy, kde-format
+#| msgctxt "@menu-action"
+#| msgid "Quit"
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Quita"
 
 #~ msgid "Body Text"
 #~ msgstr "Texto de corpore"
