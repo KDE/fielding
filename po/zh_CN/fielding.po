@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-10 00:40+0000\n"
-"PO-Revision-Date: 2024-03-30 19:37\n"
+"PO-Revision-Date: 2024-04-10 19:49\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -121,24 +121,19 @@ msgid "Menu"
 msgstr ""
 
 #: ui/PageHeader.qml:85
-#, fuzzy, kde-format
-#| msgid "About Fielding"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "关于 Fielding"
 
 #: ui/PageHeader.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "About Roy"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr "关于 Roy"
+msgstr ""
 
 #: ui/PageHeader.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "退出"
