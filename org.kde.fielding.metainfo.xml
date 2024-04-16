@@ -169,10 +169,16 @@
     <control>pointing</control>
     <control>touch</control>
   </recommends>
+  <categories>
+    <category>Qt</category>
+    <category>Utility</category>
+    <category>KDE</category>
+  </categories>
   <provides>
     <binary>fielding</binary>
   </provides>
-  <url type="homepage">https://invent.kde.org/fhek/fielding</url>
-  <url type="bugtracker">https://invent.kde.org/fhek/fielding/-/issues</url>
+  <url type="homepage">https://apps.kde.org/fielding/</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?product=fielding</url>
+  <url type="vcs-browser">https://invent.kde.org/utilities/fielding</url>
   <launchable type="desktop-id">org.kde.fielding.desktop</launchable>
 </component>
