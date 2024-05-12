@@ -95,7 +95,7 @@ msgstr "Fielding"
 #: ui/Main.qml:89
 #, kde-format
 msgid "Request body..."
-msgstr "Sol·licita el cos..."
+msgstr "Sol·licita el cos…"
 
 #: ui/Main.qml:127
 #, kde-format
