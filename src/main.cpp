@@ -49,7 +49,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
                          // Copyright Statement.
                          i18n("© 2022 - 2023 KDE Community"));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io"));
-    aboutData.setBugAddress("https://invent.kde.org/utilities/fielding/-/issues/new");
+    aboutData.setBugAddress("https://bugs.kde.org/enter_bug.cgi?product=fielding");
     KAboutData::setApplicationData(aboutData);
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.fielding")));
 
