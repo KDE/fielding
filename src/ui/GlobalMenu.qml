@@ -30,7 +30,7 @@ Labs.MenuBar {
         }
 
         Labs.MenuItem {
-            text: i18nc("@menu-action", "About Roy")
+            text: i18nc("@menu-action", "About Fielding")
             icon.name: "help-about"
             onTriggered: pageStack.layers.push("About.qml")
             enabled: pageStack.layers.depth <= 1
