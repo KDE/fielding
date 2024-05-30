@@ -129,6 +129,13 @@ Kirigami.ApplicationWindow {
                         }
                     }
 
+                    QQC2.BusyIndicator {
+                        id: runSpinner
+                        anchors.centerIn: parent
+                        width: parent.width - Kirigami.Units.largeSpacing * 4
+                        running: false
+                    }
+
                     SyntaxHighlighter {
                         textEdit: responseTextArea
                         definition: "JSON"
@@ -139,6 +146,7 @@ Kirigami.ApplicationWindow {
 
                         function onResponse(response) {
                             responseTextArea.text = response
+                            runSpinner.running = false
                         }
                     }
                 }

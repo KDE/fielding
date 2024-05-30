@@ -62,7 +62,7 @@ RowLayout {
             }
         }
 
-        onAccepted: searchField.makeRequest()
+        onAccepted: searchField.makeRequest(), runSpinner.running = true
     }
 
     QQC2.ToolButton {
