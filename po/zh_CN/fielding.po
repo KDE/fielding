@@ -118,7 +118,7 @@ msgstr "请输入 URL..."
 #: ui/PageHeader.qml:76
 #, kde-format
 msgid "Menu"
-msgstr ""
+msgstr "菜单"
 
 #: ui/PageHeader.qml:85
 #, kde-format
@@ -130,7 +130,7 @@ msgstr "关于 Fielding"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr ""
+msgstr "关于 KDE"
 
 #: ui/PageHeader.qml:99
 #, kde-format
