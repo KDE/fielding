@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-10 00:40+0000\n"
+"POT-Creation-Date: 2024-06-06 00:41+0000\n"
 "PO-Revision-Date: 2023-08-24 21:25+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -83,10 +83,11 @@ msgid "Report Bug…"
 msgstr "Meld frå om feil …"
 
 #: ui/GlobalMenu.qml:33
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "About Fielding"
 msgctxt "@menu-action"
-msgid "About Roy"
-msgstr "Om Roy"
+msgid "About Fielding"
+msgstr "Om Fielding"
 
 #: ui/Main.qml:16
 #, kde-format
@@ -108,7 +109,7 @@ msgstr "Inkje svar enno"
 msgid "Your request response will appear here"
 msgstr "Svar på førespurnaden vert vist her"
 
-#: ui/Main.qml:160
+#: ui/Main.qml:168
 #, kde-format
 msgid "Status: "
 msgstr "Status: "
@@ -145,3 +146,7 @@ msgstr "Om Roy"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Avslutt"
+
+#~ msgctxt "@menu-action"
+#~ msgid "About Roy"
+#~ msgstr "Om Roy"

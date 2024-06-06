@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-10 00:40+0000\n"
+"POT-Creation-Date: 2024-06-06 00:41+0000\n"
 "PO-Revision-Date: 2024-04-10 14:07+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -80,10 +80,12 @@ msgid "Report Bug…"
 msgstr "Segnala un bug…"
 
 #: ui/GlobalMenu.qml:33
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "About Fielding"
 msgctxt "@menu-action"
-msgid "About Roy"
-msgstr "Informazioni su Roy"
+msgid "About Fielding"
+msgstr "Informazioni su Fielding"
 
 #: ui/Main.qml:16
 #, kde-format
@@ -105,7 +107,7 @@ msgstr "Ancora nessuna risposta"
 msgid "Your request response will appear here"
 msgstr "La tua risposta alla richiesta apparirà qui"
 
-#: ui/Main.qml:160
+#: ui/Main.qml:168
 #, kde-format
 msgid "Status: "
 msgstr "Stato: "
@@ -137,6 +139,10 @@ msgstr "Informazioni su KDE"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Esci"
+
+#~ msgctxt "@menu-action"
+#~ msgid "About Roy"
+#~ msgstr "Informazioni su Roy"
 
 #~ msgid "Body Text"
 #~ msgstr "Testo del corpo"
