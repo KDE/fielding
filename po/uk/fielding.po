@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-06 00:41+0000\n"
-"PO-Revision-Date: 2024-04-10 18:30+0300\n"
+"PO-Revision-Date: 2024-06-06 11:24+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk\n"
@@ -81,9 +81,7 @@ msgid "Report Bug…"
 msgstr "Надіслати звіт про помилку…"
 
 #: ui/GlobalMenu.qml:33
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "About Fielding"
+#, kde-format
 msgctxt "@menu-action"
 msgid "About Fielding"
 msgstr "Про «Fielding»"

@@ -80,9 +80,7 @@ msgid "Report Bug…"
 msgstr "报告程序缺陷…"
 
 #: ui/GlobalMenu.qml:33
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "About Fielding"
+#, kde-format
 msgctxt "@menu-action"
 msgid "About Fielding"
 msgstr "关于 Fielding"
@@ -139,7 +137,3 @@ msgstr "关于 KDE"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "退出"
-
-#~ msgctxt "@menu-action"
-#~ msgid "About Roy"
-#~ msgstr "关于 Roy"
