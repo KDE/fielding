@@ -146,7 +146,3 @@ msgstr "Om Roy"
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Avslutt"
-
-#~ msgctxt "@menu-action"
-#~ msgid "About Roy"
-#~ msgstr "Om Roy"
