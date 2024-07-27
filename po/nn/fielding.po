@@ -1,12 +1,11 @@
 # Translation of fielding to Norwegian Nynorsk
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-06 00:41+0000\n"
-"PO-Revision-Date: 2023-08-24 21:25+0200\n"
+"PO-Revision-Date: 2024-07-26 15:01+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -14,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.3\n"
+"X-Generator: Lokalize 24.11.70\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -36,15 +35,14 @@ msgid "Fielding"
 msgstr "Fielding"
 
 #: main.cpp:46
-#, fuzzy, kde-format
-#| msgid "Simple REST API testing tool"
+#, kde-format
 msgid "REST API testing tool"
-msgstr "Enkelt testverktøy for REST-API"
+msgstr "Testverktøy for REST-API"
 
 #: main.cpp:50
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
-msgstr ""
+msgstr "© 2022–2023 KDE-fellesskapet"
 
 #: main.cpp:51
 #, kde-format
@@ -83,8 +81,7 @@ msgid "Report Bug…"
 msgstr "Meld frå om feil …"
 
 #: ui/GlobalMenu.qml:33
-#, fuzzy, kde-format
-#| msgid "About Fielding"
+#, kde-format
 msgctxt "@menu-action"
 msgid "About Fielding"
 msgstr "Om Fielding"
@@ -122,27 +119,22 @@ msgstr "Skriv inn nettadresse …"
 #: ui/PageHeader.qml:76
 #, kde-format
 msgid "Menu"
-msgstr ""
+msgstr "Meny"
 
 #: ui/PageHeader.qml:85
-#, fuzzy, kde-format
-#| msgid "About Fielding"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "Om Fielding"
 
 #: ui/PageHeader.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "About Roy"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr "Om Roy"
+msgstr "Om KDE"
 
 #: ui/PageHeader.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "Avslutt"
