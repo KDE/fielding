@@ -1,13 +1,13 @@
 # Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the fielding package.
-# SPDX-FileCopyrightText: 2023 Shinjo Park <kde@peremen.name>
+# SPDX-FileCopyrightText: 2023, 2024 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-06 00:41+0000\n"
-"PO-Revision-Date: 2023-11-04 22:11+0100\n"
+"PO-Revision-Date: 2024-08-19 23:12+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -80,8 +80,7 @@ msgid "Report Bug…"
 msgstr "버그 보고…"
 
 #: ui/GlobalMenu.qml:33
-#, fuzzy, kde-format
-#| msgid "About Fielding"
+#, kde-format
 msgctxt "@menu-action"
 msgid "About Fielding"
 msgstr "Fielding 정보"
@@ -119,27 +118,22 @@ msgstr "URL 입력…"
 #: ui/PageHeader.qml:76
 #, kde-format
 msgid "Menu"
-msgstr ""
+msgstr "메뉴"
 
 #: ui/PageHeader.qml:85
-#, fuzzy, kde-format
-#| msgid "About Fielding"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "Fielding 정보"
 
 #: ui/PageHeader.qml:92
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "About Roy"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
-msgstr "Roy 정보"
+msgstr "KDE 정보"
 
 #: ui/PageHeader.qml:99
-#, fuzzy, kde-format
-#| msgctxt "@menu-action"
-#| msgid "Quit"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
 msgstr "끝내기"
