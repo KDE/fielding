@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-06 00:41+0000\n"
-"PO-Revision-Date: 2024-04-28 20:16+0200\n"
+"PO-Revision-Date: 2024-08-21 21:21+0200\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
@@ -18,17 +18,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Johannes Obermayr"
+msgstr "Deutsches KDE-Übersetzerteam"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "johannesobermayr@gmx.de"
+msgstr "kde-i18n-de@kde.org"
 
 #: main.cpp:42
 #, kde-format
@@ -83,9 +83,7 @@ msgid "Report Bug…"
 msgstr "Probleme oder Wünsche berichten …"
 
 #: ui/GlobalMenu.qml:33
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "About Fielding"
+#, kde-format
 msgctxt "@menu-action"
 msgid "About Fielding"
 msgstr "Über Fielding"
