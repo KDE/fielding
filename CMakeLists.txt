@@ -7,8 +7,8 @@ project(fielding VERSION 0.1)
 
 include(FeatureSummary)
 
-set(QT_MIN_VERSION 6.5)
-set(KF_MIN_VERSION 5.240)
+set(QT_MIN_VERSION 6.7)
+set(KF_MIN_VERSION 6.8)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

@@ -13,9 +13,10 @@
 #include <KDBusService>
 #include <KLocalizedString>
 
-#include "version-fielding.h"
-#include "fieldingconfig.h"
 #include "controller.h"
+#include "fieldingconfig.h"
+#include "version-fielding.h"
+#include <KLocalizedQmlContext>
 #include <QQuickStyle>
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
@@ -59,7 +60,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     qmlRegisterSingletonInstance("org.kde.fielding.config", 1, 0, "Config", config);
 
-    engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    KLocalization::setupLocalizedContext(&engine);
+
     engine.loadFromModule(QStringLiteral("org.kde.fielding"), QStringLiteral("Main"));
 
     if (engine.rootObjects().isEmpty()) {
