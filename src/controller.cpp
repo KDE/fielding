@@ -53,10 +53,15 @@ void Controller::fetch(QUrl url, QJsonObject options)
 
     // read data
     QObject::connect(reply, &QNetworkReply::finished, [this, reply]() {
-        QJsonDocument data = QJsonDocument::fromJson(reply->readAll());
-        auto formattedString = QString::fromLatin1(data.toJson());
-
-        Q_EMIT response(formattedString);
+        const QString string = QString::fromUtf8(reply->readAll());
+        QJsonParseError error;
+        QJsonDocument data = QJsonDocument::fromJson(string.toUtf8(), &error);
+        if (error.error == QJsonParseError::NoError) {
+            auto formattedString = QString::fromLatin1(data.toJson());
+            Q_EMIT response(formattedString);
+        } else {
+            Q_EMIT response(string);
+        }
         Q_EMIT status(reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt(), reply->attribute(QNetworkRequest::HttpReasonPhraseAttribute).toString());
 
         reply->deleteLater(); // make sure to clean up
