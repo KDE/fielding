@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-06 00:41+0000\n"
+"POT-Creation-Date: 2024-12-13 09:53+0000\n"
 "PO-Revision-Date: 2024-03-02 15:25+0000\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -28,29 +28,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sergiu@cip.md"
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: main.cpp:46
+#: main.cpp:47
 #, kde-format
 msgid "REST API testing tool"
 msgstr "Unealtă de testare a API-urilor REST"
 
-#: main.cpp:50
+#: main.cpp:51
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
 msgstr "© 2022 - 2023 Comunitatea KDE"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -107,7 +107,7 @@ msgstr "Niciun răspuns deocamdată"
 msgid "Your request response will appear here"
 msgstr "Răspunsul la cererea dumneavoastră va apărea aici"
 
-#: ui/Main.qml:168
+#: ui/Main.qml:170
 #, kde-format
 msgid "Status: "
 msgstr "Stare: "

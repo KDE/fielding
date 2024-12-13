@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-06 00:41+0000\n"
+"POT-Creation-Date: 2024-12-13 09:53+0000\n"
 "PO-Revision-Date: 2024-06-07 08:31+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -25,29 +25,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xavier.besnard@kde.org"
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: main.cpp:46
+#: main.cpp:47
 #, kde-format
 msgid "REST API testing tool"
 msgstr "Outil simple de test pour l'API « REST »"
 
-#: main.cpp:50
+#: main.cpp:51
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
 msgstr "© 2022 - 2023 Communauté de KDE"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -103,7 +103,7 @@ msgstr "Encore aucune réponse"
 msgid "Your request response will appear here"
 msgstr "La réponse à votre demande apparaîtra ici"
 
-#: ui/Main.qml:168
+#: ui/Main.qml:170
 #, kde-format
 msgid "Status: "
 msgstr "État : "

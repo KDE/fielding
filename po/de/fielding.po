@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-06 00:41+0000\n"
+"POT-Creation-Date: 2024-12-13 09:53+0000\n"
 "PO-Revision-Date: 2024-08-21 21:21+0200\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -30,29 +30,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-i18n-de@kde.org"
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: main.cpp:46
+#: main.cpp:47
 #, kde-format
 msgid "REST API testing tool"
 msgstr "Testprogramm für die REST-API"
 
-#: main.cpp:50
+#: main.cpp:51
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
 msgstr "© 2022 - 2023 KDE-Gemeinschaft"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -108,7 +108,7 @@ msgstr "Bisher ist keine Rückmeldung eingegangen"
 msgid "Your request response will appear here"
 msgstr "Die Rückmeldung zu Ihrer Anfrage wird hier erscheinen"
 
-#: ui/Main.qml:168
+#: ui/Main.qml:170
 #, kde-format
 msgid "Status: "
 msgstr "Status: "

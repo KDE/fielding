@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-06 00:41+0000\n"
+"POT-Creation-Date: 2024-12-13 09:53+0000\n"
 "PO-Revision-Date: 2023-11-14 13:41-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -27,29 +27,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "elchevive@opensuse.org"
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: main.cpp:46
+#: main.cpp:47
 #, kde-format
 msgid "REST API testing tool"
 msgstr "Ferramenta de testes de API REST"
 
-#: main.cpp:50
+#: main.cpp:51
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
 msgstr "© 2022 - 2023 Comunidade KDE"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -106,7 +106,7 @@ msgstr "Ainda sem resposta"
 msgid "Your request response will appear here"
 msgstr "A resposta da sua solicitação aparecerá aqui"
 
-#: ui/Main.qml:168
+#: ui/Main.qml:170
 #, kde-format
 msgid "Status: "
 msgstr "Status: "

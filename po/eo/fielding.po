@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-06 00:41+0000\n"
+"POT-Creation-Date: 2024-12-13 09:53+0000\n"
 "PO-Revision-Date: 2024-06-08 10:47+0200\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -27,29 +27,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "olivermkellogg@gmail.com"
 
-#: main.cpp:42
+#: main.cpp:43
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: main.cpp:46
+#: main.cpp:47
 #, kde-format
 msgid "REST API testing tool"
 msgstr "Testilo por REST-API"
 
-#: main.cpp:50
+#: main.cpp:51
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
 msgstr "© 2022 - 2023 KDE-Komunumo"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -105,7 +105,7 @@ msgstr "Ankoraŭ Neniu Respondo"
 msgid "Your request response will appear here"
 msgstr "Via respondo al peto aperos ĉi tie"
 
-#: ui/Main.qml:168
+#: ui/Main.qml:170
 #, kde-format
 msgid "Status: "
 msgstr "Statuso: "
