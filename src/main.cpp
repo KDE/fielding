@@ -2,18 +2,14 @@
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
 #include <QApplication>
-#include <QIcon>
-#include <QQmlApplicationEngine>
 #include <QQuickWindow>
 #include <QtQml>
-#include <QUrl>
 
 #include <KAboutData>
 #include <KLocalizedContext>
 #include <KDBusService>
 #include <KLocalizedString>
 
-#include "controller.h"
 #include "version-fielding.h"
 #include <KLocalizedQmlContext>
 #include <QQuickStyle>
