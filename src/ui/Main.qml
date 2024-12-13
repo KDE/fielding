@@ -137,16 +137,18 @@ Kirigami.ApplicationWindow {
                     }
 
                     SyntaxHighlighter {
+                        id: responseHighlighter
+
                         textEdit: responseTextArea
-                        definition: "JSON"
                     }
 
                     Connections {
                         target: Controller
 
-                        function onResponse(response) {
-                            responseTextArea.text = response
-                            runSpinner.running = false
+                        function onResponse(response: string, definition: string): void {
+                            responseTextArea.text = response;
+                            responseHighlighter.definition = definition;
+                            runSpinner.running = false;
                         }
                     }
                 }

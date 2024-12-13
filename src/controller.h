@@ -32,10 +32,12 @@ public:
     }
     Q_SIGNAL void dataChanged();
 
-    Q_SIGNAL void response(QString);
+    Q_SIGNAL void response(const QString &response, const QString &language);
     Q_SIGNAL void status(int statusCode, QString statusText);
 
 private:
+    static QString contentTypeToDefinition(const QString &contentType);
+
     QNetworkAccessManager m_manager;
     QJsonObject m_data;
 };

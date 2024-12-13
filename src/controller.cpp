@@ -53,17 +53,35 @@ void Controller::fetch(QUrl url, QJsonObject options)
 
     // read data
     QObject::connect(reply, &QNetworkReply::finished, [this, reply]() {
+        const auto contentType = reply->header(QNetworkRequest::KnownHeaders::ContentTypeHeader).toString();
+
         const QString string = QString::fromUtf8(reply->readAll());
         QJsonParseError error;
         QJsonDocument data = QJsonDocument::fromJson(string.toUtf8(), &error);
         if (error.error == QJsonParseError::NoError) {
             auto formattedString = QString::fromLatin1(data.toJson());
-            Q_EMIT response(formattedString);
+            Q_EMIT response(formattedString, QStringLiteral("JSON"));
         } else {
-            Q_EMIT response(string);
+            Q_EMIT response(string, contentTypeToDefinition(contentType));
         }
         Q_EMIT status(reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt(), reply->attribute(QNetworkRequest::HttpReasonPhraseAttribute).toString());
 
         reply->deleteLater(); // make sure to clean up
     });
+}
+
+QString Controller::contentTypeToDefinition(const QString &contentType)
+{
+    // TODO: write a unit test
+    const QStringList parts = contentType.split(QLatin1Char(';'));
+    if (parts.length() < 1) {
+        return {};
+    }
+    const QString &type = parts.first();
+    if (type == QStringLiteral("text/html")) {
+        return QStringLiteral("HTML");
+    } else {
+        qWarning() << "Unknown content type" << type;
+        return {};
+    }
 }
