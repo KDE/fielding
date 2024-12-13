@@ -3,7 +3,6 @@
 
 add_executable(fielding
     main.cpp
-    app.cpp
     controller.cpp
 )
 
