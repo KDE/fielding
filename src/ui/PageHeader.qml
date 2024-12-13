@@ -7,7 +7,6 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
 
 import org.kde.fielding
-import org.kde.fielding.config
 
 RowLayout {
     id: pageHeader

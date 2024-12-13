@@ -8,7 +8,6 @@ import org.kde.kirigami 2.19 as Kirigami
 import org.kde.syntaxhighlighting 1.0
 
 import org.kde.fielding
-import org.kde.fielding.config
 
 Kirigami.ApplicationWindow {
     id: root

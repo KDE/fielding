@@ -14,7 +14,6 @@
 #include <KLocalizedString>
 
 #include "controller.h"
-#include "fieldingconfig.h"
 #include "version-fielding.h"
 #include <KLocalizedQmlContext>
 #include <QQuickStyle>
@@ -55,10 +54,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.fielding")));
 
     QQmlApplicationEngine engine;
-
-    auto config = fieldingConfig::self();
-
-    qmlRegisterSingletonInstance("org.kde.fielding.config", 1, 0, "Config", config);
 
     KLocalization::setupLocalizedContext(&engine);
 

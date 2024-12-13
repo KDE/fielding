@@ -29,5 +29,5 @@ target_link_libraries(fielding PRIVATE
     KF6::ConfigGui
     KF6::DBusAddons)
 
-kconfig_add_kcfg_files(fielding GENERATE_MOC fieldingconfig.kcfgc)
+kconfig_target_kcfg_file(fielding FILE fieldingconfig.kcfg CLASS_NAME Config MUTATORS GENERATE_PROPERTIES GENERATE_MOC DEFAULT_VALUE_GETTERS PARENT_IN_CONSTRUCTOR QML_REGISTRATION SINGLETON)
 install(TARGETS fielding ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
