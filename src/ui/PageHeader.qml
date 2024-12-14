@@ -90,7 +90,7 @@ RowLayout {
             QQC2.MenuItem {
                 text: i18nc("@action:inmenu", "About KDE")
                 icon.name: "kdeapp"
-                onClicked: pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutKDE"))
+                onClicked: pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutKDEPage"))
             }
             QQC2.MenuItem {
                 action: Kirigami.Action {
