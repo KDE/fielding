@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-13 09:53+0000\n"
+"POT-Creation-Date: 2024-12-14 00:57+0000\n"
 "PO-Revision-Date: 2023-12-09 09:19+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -25,29 +25,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wizzardsk@gmail.com"
 
-#: main.cpp:43
+#: main.cpp:38
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: main.cpp:47
+#: main.cpp:42
 #, kde-format
 msgid "REST API testing tool"
 msgstr ""
 
-#: main.cpp:51
+#: main.cpp:46
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
 msgstr "© 2022 - 2023 KDE komunita"
 
-#: main.cpp:52
+#: main.cpp:47
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:52
+#: main.cpp:47
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -89,50 +89,50 @@ msgstr "Fielding"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: ui/Main.qml:89
+#: ui/Main.qml:75
 #, kde-format
 msgid "Request body..."
 msgstr ""
 
-#: ui/Main.qml:127
+#: ui/Main.qml:113
 #, kde-format
 msgid "No Response Yet"
 msgstr ""
 
-#: ui/Main.qml:128
+#: ui/Main.qml:114
 #, kde-format
 msgid "Your request response will appear here"
 msgstr ""
 
-#: ui/Main.qml:170
+#: ui/Main.qml:156
 #, kde-format
 msgid "Status: "
 msgstr "Stav:"
 
-#: ui/PageHeader.qml:32
+#: ui/PageHeader.qml:31
 #, kde-format
 msgid "Enter URL here…"
 msgstr "Tu zadajte URL..."
 
-#: ui/PageHeader.qml:76
+#: ui/PageHeader.qml:75
 #, kde-format
 msgid "Menu"
 msgstr ""
 
-#: ui/PageHeader.qml:85
+#: ui/PageHeader.qml:84
 #, fuzzy, kde-format
 #| msgid "Fielding"
 msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "Fielding"
 
-#: ui/PageHeader.qml:92
+#: ui/PageHeader.qml:91
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr ""
 
-#: ui/PageHeader.qml:99
+#: ui/PageHeader.qml:98
 #, fuzzy, kde-format
 #| msgctxt "@menu-action"
 #| msgid "Quit"

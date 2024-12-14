@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-13 09:53+0000\n"
+"POT-Creation-Date: 2024-12-14 00:57+0000\n"
 "PO-Revision-Date: 2024-06-16 11:01+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -28,29 +28,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "lukasz.wojnilowicz@gmail.com"
 
-#: main.cpp:43
+#: main.cpp:38
 #, kde-format
 msgctxt "@title"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: main.cpp:47
+#: main.cpp:42
 #, kde-format
 msgid "REST API testing tool"
 msgstr "Narzędzie próbowania API REST"
 
-#: main.cpp:51
+#: main.cpp:46
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
 msgstr "© 2022 - 2023 Społeczność KDE"
 
-#: main.cpp:52
+#: main.cpp:47
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: main.cpp:52
+#: main.cpp:47
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -91,49 +91,49 @@ msgstr "O Fielding"
 msgid "Fielding"
 msgstr "Fielding"
 
-#: ui/Main.qml:89
+#: ui/Main.qml:75
 #, kde-format
 msgid "Request body..."
 msgstr "Zażądaj treści..."
 
-#: ui/Main.qml:127
+#: ui/Main.qml:113
 #, kde-format
 msgid "No Response Yet"
 msgstr "Jeszcze bez odpowiedzi"
 
-#: ui/Main.qml:128
+#: ui/Main.qml:114
 #, kde-format
 msgid "Your request response will appear here"
 msgstr "Twoja odpowiedź na prośbę pojawi się tutaj"
 
-#: ui/Main.qml:170
+#: ui/Main.qml:156
 #, kde-format
 msgid "Status: "
 msgstr "Stan: "
 
-#: ui/PageHeader.qml:32
+#: ui/PageHeader.qml:31
 #, kde-format
 msgid "Enter URL here…"
 msgstr "Tutaj wpisz adres URL…"
 
-#: ui/PageHeader.qml:76
+#: ui/PageHeader.qml:75
 #, kde-format
 msgid "Menu"
 msgstr "Menu"
 
-#: ui/PageHeader.qml:85
+#: ui/PageHeader.qml:84
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "O Fielding"
 
-#: ui/PageHeader.qml:92
+#: ui/PageHeader.qml:91
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "O KDE"
 
-#: ui/PageHeader.qml:99
+#: ui/PageHeader.qml:98
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
