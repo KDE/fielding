@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-14 00:57+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2024-08-21 21:21+0200\n"
 "Last-Translator: Johannes Obermayr <johannesobermayr@gmx.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -58,31 +58,31 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
-#: ui/GlobalMenu.qml:14
+#: ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "Datei"
 
-#: ui/GlobalMenu.qml:17
+#: ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "Beenden"
 
-#: ui/GlobalMenu.qml:24
+#: ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "Hilfe"
 
-#: ui/GlobalMenu.qml:27
+#: ui/GlobalMenu.qml:28
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "Probleme oder Wünsche berichten …"
 
-#: ui/GlobalMenu.qml:33
+#: ui/GlobalMenu.qml:34
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Fielding"

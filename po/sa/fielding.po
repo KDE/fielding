@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-14 00:57+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2024-12-14 01:48+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -57,31 +57,31 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "लेखकः"
 
-#: ui/GlobalMenu.qml:14
+#: ui/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@menu"
 msgid "File"
 msgstr "संचिका"
 
-#: ui/GlobalMenu.qml:17
+#: ui/GlobalMenu.qml:18
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
 msgstr "परिजहातु"
 
-#: ui/GlobalMenu.qml:24
+#: ui/GlobalMenu.qml:25
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
 msgstr "साहाय्यम्‌"
 
-#: ui/GlobalMenu.qml:27
+#: ui/GlobalMenu.qml:28
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr "बगस्य सूचनां ददातु…"
 
-#: ui/GlobalMenu.qml:33
+#: ui/GlobalMenu.qml:34
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Fielding"
