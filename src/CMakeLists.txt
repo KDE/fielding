@@ -6,7 +6,9 @@ add_executable(fielding
     controller.cpp
 )
 
-qt_add_qml_module(fielding URI org.kde.fielding
+ecm_add_qml_module(fielding
+    URI org.kde.fielding
+    GENERATE_PLUGIN_SOURCE
     QML_FILES
         ui/GlobalMenu.qml
         ui/Main.qml
