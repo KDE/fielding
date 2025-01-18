@@ -65,6 +65,11 @@ RowLayout {
     }
 
     QQC2.ToolButton {
+        text: i18nc("@action:intoolbar", "Submit")
+        onClicked: searchField.makeRequest(), runSpinner.running = true
+    }
+
+    QQC2.ToolButton {
         id: menuButton
 
         focusPolicy: Qt.NoFocus
