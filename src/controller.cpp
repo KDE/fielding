@@ -14,11 +14,13 @@ Controller::Controller(QObject* parent)
 {
 }
 
-void Controller::fetch(QUrl url, QJsonObject options)
+void Controller::fetch(const QString &urlStr, QJsonObject options)
 {
     // handle data
     QJsonDocument doc(data());
     QByteArray inputData = doc.toJson();
+
+    QUrl url = QUrl::fromUserInput(urlStr);
 
     // handle request and timeout
     int timeout = options.value(QStringLiteral("timeout")).toInt();

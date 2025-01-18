@@ -19,7 +19,7 @@ class Controller : public QObject
 public:
     explicit Controller(QObject* parent = nullptr);
 
-    Q_INVOKABLE void fetch(QUrl url, QJsonObject options);
+    Q_INVOKABLE void fetch(const QString &urlStr, QJsonObject options);
 
     QJsonObject data()
     {
