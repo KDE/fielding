@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-15 00:43+0000\n"
+"POT-Creation-Date: 2025-01-19 00:43+0000\n"
 "PO-Revision-Date: 2024-03-02 15:25+0000\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
@@ -117,19 +117,25 @@ msgstr "Stare: "
 msgid "Enter URL here…"
 msgstr "Introduceți URL-ul aici…"
 
-#: ui/PageHeader.qml:75
+#: ui/PageHeader.qml:68
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Submit"
+msgstr ""
+
+#: ui/PageHeader.qml:80
 #, kde-format
 msgid "Menu"
 msgstr ""
 
-#: ui/PageHeader.qml:84
+#: ui/PageHeader.qml:89
 #, fuzzy, kde-format
 #| msgid "About Fielding"
 msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "Despre Fielding"
 
-#: ui/PageHeader.qml:91
+#: ui/PageHeader.qml:96
 #, fuzzy, kde-format
 #| msgctxt "@menu-action"
 #| msgid "About Roy"
@@ -137,7 +143,7 @@ msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "Despre Roy"
 
-#: ui/PageHeader.qml:98
+#: ui/PageHeader.qml:103
 #, fuzzy, kde-format
 #| msgctxt "@menu-action"
 #| msgid "Quit"
