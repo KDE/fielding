@@ -119,7 +119,7 @@ msgstr "请输入 URL..."
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Submit"
-msgstr ""
+msgstr "提交"
 
 #: ui/PageHeader.qml:80
 #, kde-format
