@@ -2,7 +2,7 @@
     "id": "org.kde.fielding",
     "branch": "master",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.7",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "fielding",
     "tags": [
@@ -20,21 +20,13 @@
         {
             "name": "kirigami-addons",
             "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+                "-DBUILD_TESTING=OFF"
             ],
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.5.0.tar.xz",
-                    "sha256": "f9dfd191022b633ea3348f84730d7158a159dfe49668dba0a9e9bd678ac44e54",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 242933,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
-                    }
+                    "type": "git",
+                    "url": "https://invent.kde.org/libraries/kirigami-addons.git"
                 }
             ]
         },
