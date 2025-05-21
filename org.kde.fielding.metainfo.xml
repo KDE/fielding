@@ -40,6 +40,10 @@
   <name xml:lang="x-test">xxFieldingxx</name>
   <name xml:lang="zh-CN">Fielding</name>
   <name xml:lang="zh-TW">Fielding</name>
+  <content_rating type="oars-1.1"/>
+  <developer id="kde.org">
+    <name translate="no">KDE</name>
+  </developer>
   <summary>Test your REST APIs</summary>
   <summary xml:lang="ar">اختبر واجهات برمجة تطبيقات REST APIs</summary>
   <summary xml:lang="ca">Proves de les API REST</summary>
@@ -74,39 +78,6 @@
   <summary xml:lang="zh-TW">測試您的 REST API</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
-  <developer_name>KDE Community, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="ar">فيليبي كينوشيتا، مجتمع كيدي</developer_name>
-  <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="de">KDE-Gemeinschaft, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="en-GB">KDE Community, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="eo">KDE-Komunumo, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="eu">KDE komunitatea, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="gl">Comunidade KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="he">קהילת KDE, פליפה קינושיטה</developer_name>
-  <developer_name xml:lang="hi">केडीई समुदाय, फेलिप किनोशिता</developer_name>
-  <developer_name xml:lang="ia">Communitate de KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
-  <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="lv">KDE kopiena, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="nn">KDE-fellesskapet, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="pt-BR">Comunidade KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="ro">Comunitatea KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="sa">केडीई समुदाय, फेलिप किनोशिता</developer_name>
-  <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
-  <developer_name xml:lang="zh-CN">KDE 社区，Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
     <p>Fielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.</p>
     <p xml:lang="ar">يجعل ميدان من السهل اختبار واجهة برمجة تطبيقات REST الخاصة بك، فهو يسمح لك بإجراء طلبات لطرق HTTP الأكثر استخدامًا.</p>
