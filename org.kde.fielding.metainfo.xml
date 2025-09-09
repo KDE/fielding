@@ -37,7 +37,6 @@
   <name xml:lang="sv">Fielding</name>
   <name xml:lang="tr">Fielding</name>
   <name xml:lang="uk">Fielding</name>
-  <name xml:lang="x-test">xxFieldingxx</name>
   <name xml:lang="zh-CN">Fielding</name>
   <name xml:lang="zh-TW">Fielding</name>
   <content_rating type="oars-1.1"/>
@@ -73,7 +72,6 @@
   <summary xml:lang="sv">Prova dina REST-programmeringsgränssnitt</summary>
   <summary xml:lang="tr">REST API’si Sınayıcısı</summary>
   <summary xml:lang="uk">Перевірте ваші програмні інтерфейси REST</summary>
-  <summary xml:lang="x-test">xxTest your REST APIsxx</summary>
   <summary xml:lang="zh-CN">测试您的 REST API</summary>
   <summary xml:lang="zh-TW">測試您的 REST API</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -108,7 +106,6 @@
     <p xml:lang="sv">Fielding gör det enkelt att testa ditt REST-programmeringsgränssnitt, och låter dig utföra förfrågningar med de mest använda HTTP-metoderna.</p>
     <p xml:lang="tr">Fielding; REST API’nizi kolayca sınamanıza izin verir. En çok kullanılan HTTP yöntemleri için istekler yapabilrsiniz.</p>
     <p xml:lang="uk">Fielding спрощує вам тестування вашого програмного інтерфейсу REST; програма надає вам змогу створювати запит для більшості використовуваних методів HTTP.</p>
-    <p xml:lang="x-test">xxFielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.xx</p>
     <p xml:lang="zh-TW">Fielding 讓測試 REST API 變得容易，讓您使用最常用的 HTTP 方法進行請求。</p>
   </description>
   <screenshots>
@@ -143,7 +140,6 @@
       <caption xml:lang="sv">Huvudvy som gör en GET-begäran</caption>
       <caption xml:lang="tr">Bir GET isteği yapan ana görünüm</caption>
       <caption xml:lang="uk">Основне вікно із запитом GET</caption>
-      <caption xml:lang="x-test">xxMain view making a GET requestxx</caption>
       <caption xml:lang="zh-TW">主頁面，正在進行 GET 請求</caption>
     </screenshot>
   </screenshots>
