@@ -5,8 +5,6 @@
 # SPDX-FileCopyrightText: 2023, 2024 Johannes Obermayr <johannesobermayr@gmx.de>
 # SPDX-FileCopyrightText: 2025 Flori G <Renner03@protonmail.com>
 # SPDX-FileCopyrightText: 2025 Frank Steinmetzger <dev-kde@felsenfleischer.de>
-# Automatically generated, 2023.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
