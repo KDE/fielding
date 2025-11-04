@@ -101,7 +101,7 @@ msgstr "Encore aucune réponse"
 #: ui/Main.qml:114
 #, kde-format
 msgid "Your request response will appear here"
-msgstr "La réponse à votre demande apparaîtra ici"
+msgstr "La réponse à votre demande apparaitra ici"
 
 #: ui/Main.qml:156
 #, kde-format
