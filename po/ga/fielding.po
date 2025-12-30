@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the fielding package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: fielding\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: main.cpp:38
+#, kde-format
+msgctxt "@title"
+msgid "Fielding"
+msgstr ""
+
+#: main.cpp:42
+#, kde-format
+msgid "REST API testing tool"
+msgstr ""
+
+#: main.cpp:46
+#, kde-format
+msgid "© 2022 - 2023 KDE Community"
+msgstr ""
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr ""
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#: ui/GlobalMenu.qml:15
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr ""
+
+#: ui/GlobalMenu.qml:18
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr ""
+
+#: ui/GlobalMenu.qml:25
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr ""
+
+#: ui/GlobalMenu.qml:28
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr ""
+
+#: ui/GlobalMenu.qml:34
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Fielding"
+msgstr ""
+
+#: ui/Main.qml:16
+#, kde-format
+msgid "Fielding"
+msgstr ""
+
+#: ui/Main.qml:75
+#, kde-format
+msgid "Request body..."
+msgstr ""
+
+#: ui/Main.qml:113
+#, kde-format
+msgid "No Response Yet"
+msgstr ""
+
+#: ui/Main.qml:114
+#, kde-format
+msgid "Your request response will appear here"
+msgstr ""
+
+#: ui/Main.qml:156
+#, kde-format
+msgid "Status: "
+msgstr ""
+
+#: ui/PageHeader.qml:31
+#, kde-format
+msgid "Enter URL here…"
+msgstr ""
+
+#: ui/PageHeader.qml:68
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Submit"
+msgstr ""
+
+#: ui/PageHeader.qml:80
+#, kde-format
+msgid "Menu"
+msgstr ""
+
+#: ui/PageHeader.qml:89
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Fielding"
+msgstr ""
+
+#: ui/PageHeader.qml:96
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr ""
+
+#: ui/PageHeader.qml:103
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr ""
