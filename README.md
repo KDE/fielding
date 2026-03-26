@@ -3,7 +3,7 @@
     SPDX-License-Identifier: CC0-1.0
 -->
 
-# Fielding
+# <img src="org.kde.fielding.svg" width="24"/> Fielding
 
 A simple REST API testing tool.
 
