@@ -51,22 +51,27 @@ RowLayout {
                     break;
             }
 
-            if (text.length > 0) {
-                Controller.fetch(text, {
-                    method: type,
-                    headers: {
-                        "Content-Type": "application/json"
-                    }
-                })
-            }
+			Controller.fetch(text, {
+				method: type,
+				headers: {
+					"Content-Type": "application/json"
+				}
+			})
         }
 
-        onAccepted: searchField.makeRequest(), runSpinner.running = true
+		onAccepted: {
+			if(text.length === 0){
+				return
+			}
+			searchField.makeRequest()
+			runSpinner.running = true
+		}
     }
 
     QQC2.ToolButton {
         text: i18nc("@action:intoolbar", "Submit")
-        onClicked: searchField.makeRequest(), runSpinner.running = true
+        enabled: searchField.text.length > 0
+        onClicked: searchField.accepted()
     }
 
     QQC2.ToolButton {
