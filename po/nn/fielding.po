@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"POT-Creation-Date: 2026-04-07 00:47+0000\n"
 "PO-Revision-Date: 2025-06-01 14:53+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -116,30 +116,30 @@ msgstr "Status: "
 msgid "Enter URL here…"
 msgstr "Skriv inn nettadresse …"
 
-#: ui/PageHeader.qml:68
+#: ui/PageHeader.qml:72
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr "Send inn"
 
-#: ui/PageHeader.qml:80
+#: ui/PageHeader.qml:85
 #, kde-format
 msgid "Menu"
 msgstr "Meny"
 
-#: ui/PageHeader.qml:89
+#: ui/PageHeader.qml:94
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "Om Fielding"
 
-#: ui/PageHeader.qml:96
+#: ui/PageHeader.qml:101
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "Om KDE"
 
-#: ui/PageHeader.qml:103
+#: ui/PageHeader.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:55+0000\n"
+"POT-Creation-Date: 2026-04-07 00:47+0000\n"
 "PO-Revision-Date: 2025-05-14 17:59+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -116,30 +116,30 @@ msgstr "الحالة: "
 msgid "Enter URL here…"
 msgstr "أدخل رابط هنا…"
 
-#: ui/PageHeader.qml:68
+#: ui/PageHeader.qml:72
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr "أرسل"
 
-#: ui/PageHeader.qml:80
+#: ui/PageHeader.qml:85
 #, kde-format
 msgid "Menu"
 msgstr "القائمة"
 
-#: ui/PageHeader.qml:89
+#: ui/PageHeader.qml:94
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "عن ميدان"
 
-#: ui/PageHeader.qml:96
+#: ui/PageHeader.qml:101
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "عن كِيدِي"
 
-#: ui/PageHeader.qml:103
+#: ui/PageHeader.qml:108
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
