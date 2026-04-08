@@ -11,3 +11,4 @@ CMakeCache.txt
 CMakeFiles
 Testing/
 compile_commands.json
+.qtcreator/
