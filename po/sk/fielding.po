@@ -34,7 +34,7 @@ msgstr "Fielding"
 #: main.cpp:42
 #, kde-format
 msgid "REST API testing tool"
-msgstr ""
+msgstr "Nástroj na testovanie REST API"
 
 #: main.cpp:46
 #, kde-format
@@ -91,7 +91,7 @@ msgstr "Fielding"
 #: ui/Main.qml:75
 #, kde-format
 msgid "Request body..."
-msgstr ""
+msgstr "Telo požiadavky..."
 
 #: ui/Main.qml:113
 #, kde-format
@@ -101,7 +101,7 @@ msgstr "No Response Yet"
 #: ui/Main.qml:114
 #, kde-format
 msgid "Your request response will appear here"
-msgstr ""
+msgstr "Odpoveď na vašu požiadavku sa zobrazí tu"
 
 #: ui/Main.qml:156
 #, kde-format
