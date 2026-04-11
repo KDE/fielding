@@ -68,6 +68,7 @@
   <summary xml:lang="pt-BR">Teste suas APIs REST</summary>
   <summary xml:lang="ro">Testează-ți API-urile REST</summary>
   <summary xml:lang="sa">स्वस्य REST APIs परीक्षणं कुर्वन्तु</summary>
+  <summary xml:lang="sk">Testujte vaše REST API</summary>
   <summary xml:lang="sl">Testiraj vaše REST API-je</summary>
   <summary xml:lang="sv">Prova dina REST-programmeringsgränssnitt</summary>
   <summary xml:lang="tr">REST API’si Sınayıcısı</summary>
@@ -102,6 +103,7 @@
     <p xml:lang="pt-BR">Fielding facilita o teste de sua API REST, permite que você faça requests para os métodos HTTP mais usados.</p>
     <p xml:lang="ro">Fielding facilitează testarea API-ului REST. Acesta vă permite să faceți cereri pentru cele mai uzuale metode HTTP.</p>
     <p xml:lang="sa">फील्डिंग् इत्यनेन भवतः REST API परीक्षणं सुलभं भवति, एतत् भवन्तं सर्वाधिकं प्रयुक्तानां HTTP पद्धतीनां अनुरोधं कर्तुं शक्नोति ।</p>
+    <p xml:lang="sk">Fielding makes it easy to test your REST API, it allows you to make requests for the most used HTTP methods.</p>
     <p xml:lang="sl">Fielding omogoča enostavno testiranje REST API, dovoljuje postavljanje zahtevkov za največkrat uporabljene metode HTTP.</p>
     <p xml:lang="sv">Fielding gör det enkelt att testa ditt REST-programmeringsgränssnitt, och låter dig utföra förfrågningar med de mest använda HTTP-metoderna.</p>
     <p xml:lang="tr">Fielding; REST API’nizi kolayca sınamanıza izin verir. En çok kullanılan HTTP yöntemleri için istekler yapabilrsiniz.</p>
@@ -136,6 +138,7 @@
       <caption xml:lang="pt-BR">Visualização principal fazendo uma request GET</caption>
       <caption xml:lang="ro">Vedere principală făcând o cerere GET</caption>
       <caption xml:lang="sa">GET अनुरोधं कुर्वन् मुख्यदृश्यम्</caption>
+      <caption xml:lang="sk">Hlavné zobrazenie s GET požiadavkou</caption>
       <caption xml:lang="sl">Glavni pogled izdelave zahtevka GET</caption>
       <caption xml:lang="sv">Huvudvy som gör en GET-begäran</caption>
       <caption xml:lang="tr">Bir GET isteği yapan ana görünüm</caption>
