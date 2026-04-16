@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-07 00:47+0000\n"
+"POT-Creation-Date: 2026-04-16 00:47+0000\n"
 "PO-Revision-Date: 2024-12-25 19:37+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -112,35 +112,35 @@ msgstr "भवतः अनुरोधप्रतिक्रिया अत�
 msgid "Status: "
 msgstr "स्थितिः: "
 
-#: ui/PageHeader.qml:31
+#: ui/PageHeader.qml:30
 #, kde-format
 msgid "Enter URL here…"
 msgstr "अत्र URL प्रविष्टं कुर्वन्तु…"
 
-#: ui/PageHeader.qml:72
+#: ui/PageHeader.qml:71
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr ""
 
-#: ui/PageHeader.qml:85
+#: ui/PageHeader.qml:84
 #, kde-format
 msgid "Menu"
 msgstr "मेनू"
 
-#: ui/PageHeader.qml:94
+#: ui/PageHeader.qml:93
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "फील्डिंग् विषये"
 
-#: ui/PageHeader.qml:101
+#: ui/PageHeader.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "KDE विषये"
 
-#: ui/PageHeader.qml:108
+#: ui/PageHeader.qml:107
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"

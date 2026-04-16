@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-07 00:47+0000\n"
+"POT-Creation-Date: 2026-04-16 00:47+0000\n"
 "PO-Revision-Date: 2024-04-22 15:58\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -110,35 +110,35 @@ msgstr "您的请求响应将显示在这里"
 msgid "Status: "
 msgstr "状态："
 
-#: ui/PageHeader.qml:31
+#: ui/PageHeader.qml:30
 #, kde-format
 msgid "Enter URL here…"
 msgstr "请输入 URL..."
 
-#: ui/PageHeader.qml:72
+#: ui/PageHeader.qml:71
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr "提交"
 
-#: ui/PageHeader.qml:85
+#: ui/PageHeader.qml:84
 #, kde-format
 msgid "Menu"
 msgstr "菜单"
 
-#: ui/PageHeader.qml:94
+#: ui/PageHeader.qml:93
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About Fielding"
 msgstr "关于 Fielding"
 
-#: ui/PageHeader.qml:101
+#: ui/PageHeader.qml:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "About KDE"
 msgstr "关于 KDE"
 
-#: ui/PageHeader.qml:108
+#: ui/PageHeader.qml:107
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Quit"
