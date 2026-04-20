@@ -29,10 +29,8 @@ void Controller::fetch(const QString &urlStr, QJsonObject options)
 
     // handle headers
     auto headers = options.value(QStringLiteral("headers")).toObject().toVariantMap();
-    QMap<QString, QVariant>::const_iterator j = headers.constBegin();
-    while (j != headers.constEnd()) {
-        request.setRawHeader(QByteArray(j.key().toLocal8Bit()), QByteArray(j.value().toString().toLocal8Bit()));
-        j++;
+    for (auto [key, value] : headers.asKeyValueRange()){
+        request.setRawHeader(key.toUtf8(), value.toString().toUtf8());
     }
 
     // handle reply
