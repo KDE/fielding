@@ -73,15 +73,26 @@ void Controller::fetch(const QString &urlStr, QJsonObject options)
 QString Controller::contentTypeToDefinition(const QString &contentType)
 {
     // TODO: write a unit test
-    const QStringList parts = contentType.split(QLatin1Char(';'));
-    if (parts.length() < 1) {
+    if (contentType.isEmpty()) {
         return {};
     }
-    const QString &type = parts.first();
-    if (type == QStringLiteral("text/html")) {
+
+    const QString mediaType = contentType.section(QLatin1Char(';'), 0, 0).trimmed().toLower();
+
+    if (mediaType == QLatin1String("application/json")) {
+        return QStringLiteral("JSON");
+    } else if (mediaType == QLatin1String("text/html")) {
         return QStringLiteral("HTML");
+    } else if (mediaType == QLatin1String("text/xml") || mediaType == QLatin1String("application/xml")) {
+        return QStringLiteral("XML");
+    } else if (mediaType == QLatin1String("application/javascript") || mediaType == QLatin1String("text/javascript")) {
+        return QStringLiteral("JavaScript");
+    } else if (mediaType == QLatin1String("text/css")) {
+        return QStringLiteral("CSS");
+    } else if (mediaType == QLatin1String("text/plain")) {
+        return {};
     } else {
-        qWarning() << "Unknown content type" << type;
+        qWarning() << "Unknown content type:" << mediaType;
         return {};
     }
 }
