@@ -72,47 +72,4 @@ RowLayout {
         enabled: searchField.text.length > 0
         onClicked: searchField.accepted()
     }
-
-    QQC2.ToolButton {
-        id: menuButton
-
-        focusPolicy: Qt.NoFocus
-
-        display: QQC2.AbstractButton.IconOnly
-        down: applicationMenu.opened
-        action: Kirigami.Action {
-            text: i18n("Menu")
-            icon.name: "application-menu-symbolic"
-            onTriggered: applicationMenu.popup(menuButton, 0.0, menuButton.height)
-        }
-
-        QQC2.Menu {
-            id: applicationMenu
-            QQC2.MenuItem {
-                action: Kirigami.Action {
-                    text: i18nc("@action:inmenu", "About Fielding")
-                    icon.name: "org.kde.fielding"
-                    shortcut: StandardKey.HelpContents
-                    onTriggered: pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
-                }
-            }
-            QQC2.MenuItem {
-                text: i18nc("@action:inmenu", "About KDE")
-                icon.name: "kdeapp"
-                onClicked: pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutKDEPage"))
-            }
-            QQC2.MenuItem {
-                action: Kirigami.Action {
-                    icon.name: "application-exit"
-                    text: i18nc("@action:inmenu", "Quit")
-                    shortcut: StandardKey.Quit
-                    onTriggered: Qt.quit()
-                }
-            }
-        }
-
-        QQC2.ToolTip.visible: hovered
-        QQC2.ToolTip.text: text
-        QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
-    }
 }

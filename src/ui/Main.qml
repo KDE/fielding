@@ -7,6 +7,7 @@ import QtQuick.Layouts
 import org.kde.kirigami as Kirigami
 import org.kde.syntaxhighlighting
 import org.kde.config as KConfig
+import org.kde.kirigamiaddons.formcard
 
 import org.kde.fielding
 
@@ -24,13 +25,35 @@ Kirigami.ApplicationWindow {
         configGroupName: "MainWindow"
     }
 
-    Loader {
-        active: !Kirigami.Settings.isMobile
-        source: Qt.resolvedUrl("GlobalMenu.qml")
-    }
-
     pageStack.initialPage: Kirigami.Page {
         id: page
+        actions: [
+                Kirigami.Action {
+                    text: i18n("@action:inmenu", "Menu")
+                    icon.name: "application-menu"
+                    displayHint: Kirigami.DisplayHint.KeepVisible | Kirigami.DisplayHint.IconOnly
+
+                    Kirigami.Action {
+                        text: i18nc("@action:inmenu", "About Fielding")
+                        icon.name: "org.kde.fielding"
+                        shortcut: StandardKey.HelpContents
+                        onTriggered: pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutPage"))
+                    }
+
+                    Kirigami.Action {
+                        text: i18nc("@action:inmenu", "About KDE")
+                        icon.name: "kde"
+                        onTriggered: pageStack.layers.push(Qt.createComponent("org.kde.kirigamiaddons.formcard", "AboutKDEPage"))
+                    }
+
+                    Kirigami.Action {
+                        text: i18nc("@action:inmenu", "Quit")
+                        icon.name: "application-exit"
+                        shortcut: StandardKey.Quit
+                        onTriggered: Qt.quit()
+                    }
+                }
+            ]
 
         padding: 0
         titleDelegate: PageHeader {}
