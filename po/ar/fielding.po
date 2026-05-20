@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-16 00:47+0000\n"
+"POT-Creation-Date: 2026-05-20 00:48+0000\n"
 "PO-Revision-Date: 2025-05-14 17:59+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -56,57 +56,50 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "المؤلف"
 
-#: ui/GlobalMenu.qml:15
-#, kde-format
-msgctxt "@menu"
-msgid "File"
-msgstr "ملف"
-
-#: ui/GlobalMenu.qml:18
-#, kde-format
-msgctxt "@menu-action"
-msgid "Quit"
-msgstr "أنهِ"
-
-#: ui/GlobalMenu.qml:25
-#, kde-format
-msgctxt "@menu"
-msgid "Help"
-msgstr "مساعدة"
-
-#: ui/GlobalMenu.qml:28
-#, kde-format
-msgctxt "@menu-action"
-msgid "Report Bug…"
-msgstr "أبلغ عن علّة…"
-
-#: ui/GlobalMenu.qml:34
-#, kde-format
-msgctxt "@menu-action"
-msgid "About Fielding"
-msgstr "عن ميدان"
-
-#: ui/Main.qml:16
+#: ui/Main.qml:17
 #, kde-format
 msgid "Fielding"
 msgstr "ميدان"
 
-#: ui/Main.qml:75
+#: ui/Main.qml:32
+#, kde-format
+msgid "@action:inmenu"
+msgstr ""
+
+#: ui/Main.qml:37
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Fielding"
+msgstr "عن ميدان"
+
+#: ui/Main.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "عن كِيدِي"
+
+#: ui/Main.qml:50
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "أنهِ"
+
+#: ui/Main.qml:98
 #, kde-format
 msgid "Request body..."
 msgstr "اطلب المتن…"
 
-#: ui/Main.qml:113
+#: ui/Main.qml:136
 #, kde-format
 msgid "No Response Yet"
 msgstr "لا إجابة للآن"
 
-#: ui/Main.qml:114
+#: ui/Main.qml:137
 #, kde-format
 msgid "Your request response will appear here"
 msgstr "سيظهر الرد على طلبك هنا"
 
-#: ui/Main.qml:156
+#: ui/Main.qml:179
 #, kde-format
 msgid "Status: "
 msgstr "الحالة: "
@@ -122,25 +115,25 @@ msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr "أرسل"
 
-#: ui/PageHeader.qml:84
-#, kde-format
-msgid "Menu"
-msgstr "القائمة"
+#~ msgctxt "@menu"
+#~ msgid "File"
+#~ msgstr "ملف"
 
-#: ui/PageHeader.qml:93
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About Fielding"
-msgstr "عن ميدان"
+#~ msgctxt "@menu-action"
+#~ msgid "Quit"
+#~ msgstr "أنهِ"
 
-#: ui/PageHeader.qml:100
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About KDE"
-msgstr "عن كِيدِي"
+#~ msgctxt "@menu"
+#~ msgid "Help"
+#~ msgstr "مساعدة"
 
-#: ui/PageHeader.qml:107
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Quit"
-msgstr "أنهِ"
+#~ msgctxt "@menu-action"
+#~ msgid "Report Bug…"
+#~ msgstr "أبلغ عن علّة…"
+
+#~ msgctxt "@menu-action"
+#~ msgid "About Fielding"
+#~ msgstr "عن ميدان"
+
+#~ msgid "Menu"
+#~ msgstr "القائمة"

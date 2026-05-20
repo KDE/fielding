@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-16 00:47+0000\n"
+"POT-Creation-Date: 2026-05-20 00:48+0000\n"
 "PO-Revision-Date: 2024-12-25 19:37+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -57,57 +57,50 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "लेखकः"
 
-#: ui/GlobalMenu.qml:15
-#, kde-format
-msgctxt "@menu"
-msgid "File"
-msgstr "सञ्चिका"
-
-#: ui/GlobalMenu.qml:18
-#, kde-format
-msgctxt "@menu-action"
-msgid "Quit"
-msgstr "परिजहातु"
-
-#: ui/GlobalMenu.qml:25
-#, kde-format
-msgctxt "@menu"
-msgid "Help"
-msgstr "साहाय्यम्‌"
-
-#: ui/GlobalMenu.qml:28
-#, kde-format
-msgctxt "@menu-action"
-msgid "Report Bug…"
-msgstr "बगस्य सूचनां ददातु…"
-
-#: ui/GlobalMenu.qml:34
-#, kde-format
-msgctxt "@menu-action"
-msgid "About Fielding"
-msgstr "फील्डिंग् विषये"
-
-#: ui/Main.qml:16
+#: ui/Main.qml:17
 #, kde-format
 msgid "Fielding"
 msgstr "फील्डिंग"
 
-#: ui/Main.qml:75
+#: ui/Main.qml:32
+#, kde-format
+msgid "@action:inmenu"
+msgstr ""
+
+#: ui/Main.qml:37
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Fielding"
+msgstr "फील्डिंग् विषये"
+
+#: ui/Main.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "KDE विषये"
+
+#: ui/Main.qml:50
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "परिजहातु"
+
+#: ui/Main.qml:98
 #, kde-format
 msgid "Request body..."
 msgstr "अनुरोध निकाय..."
 
-#: ui/Main.qml:113
+#: ui/Main.qml:136
 #, kde-format
 msgid "No Response Yet"
 msgstr "अद्यापि प्रतिक्रिया नास्ति"
 
-#: ui/Main.qml:114
+#: ui/Main.qml:137
 #, kde-format
 msgid "Your request response will appear here"
 msgstr "भवतः अनुरोधप्रतिक्रिया अत्र दृश्यते"
 
-#: ui/Main.qml:156
+#: ui/Main.qml:179
 #, kde-format
 msgid "Status: "
 msgstr "स्थितिः: "
@@ -123,25 +116,25 @@ msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr ""
 
-#: ui/PageHeader.qml:84
-#, kde-format
-msgid "Menu"
-msgstr "मेनू"
+#~ msgctxt "@menu"
+#~ msgid "File"
+#~ msgstr "सञ्चिका"
 
-#: ui/PageHeader.qml:93
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About Fielding"
-msgstr "फील्डिंग् विषये"
+#~ msgctxt "@menu-action"
+#~ msgid "Quit"
+#~ msgstr "परिजहातु"
 
-#: ui/PageHeader.qml:100
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About KDE"
-msgstr "KDE विषये"
+#~ msgctxt "@menu"
+#~ msgid "Help"
+#~ msgstr "साहाय्यम्‌"
 
-#: ui/PageHeader.qml:107
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Quit"
-msgstr "परिजहातु"
+#~ msgctxt "@menu-action"
+#~ msgid "Report Bug…"
+#~ msgstr "बगस्य सूचनां ददातु…"
+
+#~ msgctxt "@menu-action"
+#~ msgid "About Fielding"
+#~ msgstr "फील्डिंग् विषये"
+
+#~ msgid "Menu"
+#~ msgstr "मेनू"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-16 00:47+0000\n"
+"POT-Creation-Date: 2026-05-20 00:48+0000\n"
 "PO-Revision-Date: 2025-04-06 22:09+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -55,57 +55,50 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "작성자"
 
-#: ui/GlobalMenu.qml:15
-#, kde-format
-msgctxt "@menu"
-msgid "File"
-msgstr "파일"
-
-#: ui/GlobalMenu.qml:18
-#, kde-format
-msgctxt "@menu-action"
-msgid "Quit"
-msgstr "끝내기"
-
-#: ui/GlobalMenu.qml:25
-#, kde-format
-msgctxt "@menu"
-msgid "Help"
-msgstr "도움말"
-
-#: ui/GlobalMenu.qml:28
-#, kde-format
-msgctxt "@menu-action"
-msgid "Report Bug…"
-msgstr "버그 보고…"
-
-#: ui/GlobalMenu.qml:34
-#, kde-format
-msgctxt "@menu-action"
-msgid "About Fielding"
-msgstr "Fielding 정보"
-
-#: ui/Main.qml:16
+#: ui/Main.qml:17
 #, kde-format
 msgid "Fielding"
 msgstr "Fielding"
 
-#: ui/Main.qml:75
+#: ui/Main.qml:32
+#, kde-format
+msgid "@action:inmenu"
+msgstr ""
+
+#: ui/Main.qml:37
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Fielding"
+msgstr "Fielding 정보"
+
+#: ui/Main.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "KDE 정보"
+
+#: ui/Main.qml:50
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "끝내기"
+
+#: ui/Main.qml:98
 #, kde-format
 msgid "Request body..."
 msgstr "요청 본문..."
 
-#: ui/Main.qml:113
+#: ui/Main.qml:136
 #, kde-format
 msgid "No Response Yet"
 msgstr "응답이 아직 없음"
 
-#: ui/Main.qml:114
+#: ui/Main.qml:137
 #, kde-format
 msgid "Your request response will appear here"
 msgstr "요청 응답이 여기에 표시됩니다"
 
-#: ui/Main.qml:156
+#: ui/Main.qml:179
 #, kde-format
 msgid "Status: "
 msgstr "상태: "
@@ -121,28 +114,28 @@ msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr "제출"
 
-#: ui/PageHeader.qml:84
-#, kde-format
-msgid "Menu"
-msgstr "메뉴"
+#~ msgctxt "@menu"
+#~ msgid "File"
+#~ msgstr "파일"
 
-#: ui/PageHeader.qml:93
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About Fielding"
-msgstr "Fielding 정보"
+#~ msgctxt "@menu-action"
+#~ msgid "Quit"
+#~ msgstr "끝내기"
 
-#: ui/PageHeader.qml:100
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About KDE"
-msgstr "KDE 정보"
+#~ msgctxt "@menu"
+#~ msgid "Help"
+#~ msgstr "도움말"
 
-#: ui/PageHeader.qml:107
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Quit"
-msgstr "끝내기"
+#~ msgctxt "@menu-action"
+#~ msgid "Report Bug…"
+#~ msgstr "버그 보고…"
+
+#~ msgctxt "@menu-action"
+#~ msgid "About Fielding"
+#~ msgstr "Fielding 정보"
+
+#~ msgid "Menu"
+#~ msgstr "메뉴"
 
 #~ msgctxt "@menu-action"
 #~ msgid "About Roy"

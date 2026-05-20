@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-16 00:47+0000\n"
+"POT-Creation-Date: 2026-05-20 00:48+0000\n"
 "PO-Revision-Date: 2026-05-09 15:48+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
@@ -56,57 +56,50 @@ msgctxt "@info:credit"
 msgid "Author"
 msgstr "Autor"
 
-#: ui/GlobalMenu.qml:15
-#, kde-format
-msgctxt "@menu"
-msgid "File"
-msgstr "Plik"
-
-#: ui/GlobalMenu.qml:18
-#, kde-format
-msgctxt "@menu-action"
-msgid "Quit"
-msgstr "Zakończ"
-
-#: ui/GlobalMenu.qml:25
-#, kde-format
-msgctxt "@menu"
-msgid "Help"
-msgstr "Pomoc"
-
-#: ui/GlobalMenu.qml:28
-#, kde-format
-msgctxt "@menu-action"
-msgid "Report Bug…"
-msgstr "Zgłoś błąd..."
-
-#: ui/GlobalMenu.qml:34
-#, kde-format
-msgctxt "@menu-action"
-msgid "About Fielding"
-msgstr "O Fielding"
-
-#: ui/Main.qml:16
+#: ui/Main.qml:17
 #, kde-format
 msgid "Fielding"
 msgstr "Fielding"
 
-#: ui/Main.qml:75
+#: ui/Main.qml:32
+#, kde-format
+msgid "@action:inmenu"
+msgstr ""
+
+#: ui/Main.qml:37
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About Fielding"
+msgstr "O Fielding"
+
+#: ui/Main.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KDE"
+msgstr "Opis KDE"
+
+#: ui/Main.qml:50
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit"
+msgstr "Zakończ"
+
+#: ui/Main.qml:98
 #, kde-format
 msgid "Request body..."
 msgstr "Zażądaj treści..."
 
-#: ui/Main.qml:113
+#: ui/Main.qml:136
 #, kde-format
 msgid "No Response Yet"
 msgstr "Jeszcze bez odpowiedzi"
 
-#: ui/Main.qml:114
+#: ui/Main.qml:137
 #, kde-format
 msgid "Your request response will appear here"
 msgstr "Twoja odpowiedź na prośbę pojawi się tutaj"
 
-#: ui/Main.qml:156
+#: ui/Main.qml:179
 #, kde-format
 msgid "Status: "
 msgstr "Stan: "
@@ -122,28 +115,28 @@ msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr "Wyślij"
 
-#: ui/PageHeader.qml:84
-#, kde-format
-msgid "Menu"
-msgstr "Menu"
+#~ msgctxt "@menu"
+#~ msgid "File"
+#~ msgstr "Plik"
 
-#: ui/PageHeader.qml:93
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About Fielding"
-msgstr "O Fielding"
+#~ msgctxt "@menu-action"
+#~ msgid "Quit"
+#~ msgstr "Zakończ"
 
-#: ui/PageHeader.qml:100
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "About KDE"
-msgstr "Opis KDE"
+#~ msgctxt "@menu"
+#~ msgid "Help"
+#~ msgstr "Pomoc"
 
-#: ui/PageHeader.qml:107
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Quit"
-msgstr "Zakończ"
+#~ msgctxt "@menu-action"
+#~ msgid "Report Bug…"
+#~ msgstr "Zgłoś błąd..."
+
+#~ msgctxt "@menu-action"
+#~ msgid "About Fielding"
+#~ msgstr "O Fielding"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
 
 #~ msgctxt "@menu-action"
 #~ msgid "About Roy"
