@@ -29,7 +29,7 @@ Kirigami.ApplicationWindow {
         id: page
         actions: [
                 Kirigami.Action {
-                    text: i18n("@action:inmenu", "Menu")
+                    text: i18nc("@action:inmenu", "Menu")
                     icon.name: "application-menu"
                     displayHint: Kirigami.DisplayHint.KeepVisible | Kirigami.DisplayHint.IconOnly
 
