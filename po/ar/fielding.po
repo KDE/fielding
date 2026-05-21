@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-20 00:48+0000\n"
+"POT-Creation-Date: 2026-05-21 00:48+0000\n"
 "PO-Revision-Date: 2025-05-14 17:59+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -62,9 +62,11 @@ msgid "Fielding"
 msgstr "ميدان"
 
 #: ui/Main.qml:32
-#, kde-format
-msgid "@action:inmenu"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Menu"
+msgctxt "@action:inmenu"
+msgid "Menu"
+msgstr "القائمة"
 
 #: ui/Main.qml:37
 #, kde-format
@@ -134,6 +136,3 @@ msgstr "أرسل"
 #~ msgctxt "@menu-action"
 #~ msgid "About Fielding"
 #~ msgstr "عن ميدان"
-
-#~ msgid "Menu"
-#~ msgstr "القائمة"

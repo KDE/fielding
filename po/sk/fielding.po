@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-20 00:48+0000\n"
+"POT-Creation-Date: 2026-05-21 00:48+0000\n"
 "PO-Revision-Date: 2023-12-09 09:19+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -59,9 +59,11 @@ msgid "Fielding"
 msgstr "Fielding"
 
 #: ui/Main.qml:32
-#, kde-format
-msgid "@action:inmenu"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Menu"
+msgctxt "@action:inmenu"
+msgid "Menu"
+msgstr "Ponuka"
 
 #: ui/Main.qml:37
 #, kde-format
@@ -131,6 +133,3 @@ msgstr "Submit"
 #~ msgctxt "@menu-action"
 #~ msgid "About Fielding"
 #~ msgstr "Fielding"
-
-#~ msgid "Menu"
-#~ msgstr "Ponuka"

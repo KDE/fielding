@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the fielding package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2023, 2024, 2025.
+# Yuri Chornoivan <yurchor@ukr.net>, 2023, 2024, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-20 00:48+0000\n"
-"PO-Revision-Date: 2025-01-19 16:21+0200\n"
+"POT-Creation-Date: 2026-05-21 00:48+0000\n"
+"PO-Revision-Date: 2026-05-20 08:32+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -62,9 +62,11 @@ msgid "Fielding"
 msgstr "Fielding"
 
 #: ui/Main.qml:32
-#, kde-format
-msgid "@action:inmenu"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Menu"
+msgctxt "@action:inmenu"
+msgid "Menu"
+msgstr "Меню"
 
 #: ui/Main.qml:37
 #, kde-format
@@ -115,6 +117,9 @@ msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr "Надіслати"
 
+#~ msgid "@action:inmenu"
+#~ msgstr "Меню"
+
 #~ msgctxt "@menu"
 #~ msgid "File"
 #~ msgstr "Файл"
@@ -134,9 +139,6 @@ msgstr "Надіслати"
 #~ msgctxt "@menu-action"
 #~ msgid "About Fielding"
 #~ msgstr "Про «Fielding»"
-
-#~ msgid "Menu"
-#~ msgstr "Меню"
 
 #~ msgctxt "@menu-action"
 #~ msgid "About Roy"

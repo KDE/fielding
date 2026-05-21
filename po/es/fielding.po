@@ -1,15 +1,15 @@
 # Spanish translations for fielding.po package.
-# Copyright (C) 2023 This file is copyright:
+# Copyright (C) 2023-2026 This file is copyright:
 # This file is distributed under the same license as the fielding package.
-#
 # Automatically generated, 2023.
-# SPDX-FileCopyrightText: 2023, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
+#
+# SPDX-FileCopyrightText: 2023-2026 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-20 00:48+0000\n"
-"PO-Revision-Date: 2025-01-19 17:46+0100\n"
+"POT-Creation-Date: 2026-05-21 00:48+0000\n"
+"PO-Revision-Date: 2026-05-20 20:02+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.12.1\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -64,7 +64,8 @@ msgstr "Fielding"
 
 #: ui/Main.qml:32
 #, kde-format
-msgid "@action:inmenu"
+msgctxt "@action:inmenu"
+msgid "Menu"
 msgstr ""
 
 #: ui/Main.qml:37
@@ -88,7 +89,7 @@ msgstr "Salir"
 #: ui/Main.qml:98
 #, kde-format
 msgid "Request body..."
-msgstr "Solicitar el cuerpo..."
+msgstr "Solicitar el cuerpo…"
 
 #: ui/Main.qml:136
 #, kde-format
@@ -108,7 +109,7 @@ msgstr "Estado: "
 #: ui/PageHeader.qml:30
 #, kde-format
 msgid "Enter URL here…"
-msgstr "Introduzca una URL aquí..."
+msgstr "Introduzca una URL aquí…"
 
 #: ui/PageHeader.qml:71
 #, kde-format
@@ -116,35 +117,5 @@ msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr "Enviar"
 
-#~ msgctxt "@menu"
-#~ msgid "File"
-#~ msgstr "Archivo"
-
-#~ msgctxt "@menu-action"
-#~ msgid "Quit"
-#~ msgstr "Salir"
-
-#~ msgctxt "@menu"
-#~ msgid "Help"
-#~ msgstr "Ayuda"
-
-#~ msgctxt "@menu-action"
-#~ msgid "Report Bug…"
-#~ msgstr "Informar de fallo..."
-
-#~ msgctxt "@menu-action"
-#~ msgid "About Fielding"
-#~ msgstr "Acerca de Fielding"
-
-#~ msgid "Menu"
-#~ msgstr "Menú"
-
-#~ msgctxt "@menu-action"
-#~ msgid "About Roy"
-#~ msgstr "Acerca de Roy"
-
-#~ msgid "Body Text"
-#~ msgstr "Texto del cuerpo"
-
-#~ msgid "© 2022"
-#~ msgstr "© 2022"
+#~ msgid "@action:inmenu"
+#~ msgstr "@action:inmenu"
