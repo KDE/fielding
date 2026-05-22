@@ -1,15 +1,15 @@
 # Translation of fielding.po to Catalan (Valencian)
-# Copyright (C) 2023-2025 This_file_is_part_of_KDE
+# Copyright (C) 2023-2026 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# SPDX-FileCopyrightText: 2023, 2024, 2025 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2023, 2024, 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: fielding\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-21 00:48+0000\n"
-"PO-Revision-Date: 2025-01-19 12:28+0100\n"
+"PO-Revision-Date: 2026-05-21 09:29+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.3\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -43,7 +43,7 @@ msgstr "Eina de proves de l'API de Rest"
 #: main.cpp:46
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
-msgstr "© 2022 - 2023 Comunitat KDE"
+msgstr "© 2022 – 2023 Comunitat KDE"
 
 #: main.cpp:47
 #, kde-format
@@ -63,8 +63,7 @@ msgid "Fielding"
 msgstr "Fielding"
 
 #: ui/Main.qml:32
-#, fuzzy, kde-format
-#| msgid "Menu"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Menu"
 msgstr "Menú"
@@ -117,23 +116,3 @@ msgstr "Introduïu ací un URL…"
 msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr "Envia"
-
-#~ msgctxt "@menu"
-#~ msgid "File"
-#~ msgstr "Fitxer"
-
-#~ msgctxt "@menu-action"
-#~ msgid "Quit"
-#~ msgstr "Ix"
-
-#~ msgctxt "@menu"
-#~ msgid "Help"
-#~ msgstr "Ajuda"
-
-#~ msgctxt "@menu-action"
-#~ msgid "Report Bug…"
-#~ msgstr "Informeu d'un error…"
-
-#~ msgctxt "@menu-action"
-#~ msgid "About Fielding"
-#~ msgstr "Quant a Fielding"
