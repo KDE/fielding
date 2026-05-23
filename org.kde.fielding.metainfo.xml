@@ -39,6 +39,7 @@
   <name xml:lang="uk">Fielding</name>
   <name xml:lang="zh-CN">Fielding</name>
   <name xml:lang="zh-TW">Fielding</name>
+  <launchable type="desktop-id">org.kde.fielding.desktop</launchable>
   <content_rating type="oars-1.1"/>
   <developer id="kde.org">
     <name translate="no">KDE</name>
