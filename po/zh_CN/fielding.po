@@ -61,11 +61,10 @@ msgid "Fielding"
 msgstr "Fielding"
 
 #: ui/Main.qml:32
-#, fuzzy, kde-format
-#| msgid "Menu"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Menu"
-msgstr "菜单"
+msgstr ""
 
 #: ui/Main.qml:37
 #, kde-format
@@ -115,23 +114,3 @@ msgstr "请输入 URL..."
 msgctxt "@action:intoolbar"
 msgid "Submit"
 msgstr "提交"
-
-#~ msgctxt "@menu"
-#~ msgid "File"
-#~ msgstr "文件"
-
-#~ msgctxt "@menu-action"
-#~ msgid "Quit"
-#~ msgstr "退出"
-
-#~ msgctxt "@menu"
-#~ msgid "Help"
-#~ msgstr "帮助"
-
-#~ msgctxt "@menu-action"
-#~ msgid "Report Bug…"
-#~ msgstr "报告程序缺陷…"
-
-#~ msgctxt "@menu-action"
-#~ msgid "About Fielding"
-#~ msgstr "关于 Fielding"
