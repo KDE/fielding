@@ -59,8 +59,7 @@ msgid "Fielding"
 msgstr "Fielding"
 
 #: ui/Main.qml:32
-#, fuzzy, kde-format
-#| msgid "Menu"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Menu"
 msgstr "Ponuka"
