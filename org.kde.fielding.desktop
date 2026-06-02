@@ -65,6 +65,7 @@ Comment[sk]=Testujte vaše REST API
 Comment[sl]=Testiraj REST API-je
 Comment[sv]=Prova dina REST-programmeringsgränssnitt
 Comment[tr]=REST API’lerinizi sınayın
+Comment[ug]=REST API نى سىنايدۇ
 Comment[uk]=Перевірте ваші програмні інтерфейси REST
 Comment[zh_TW]=測試您的 REST API
 Exec=fielding
