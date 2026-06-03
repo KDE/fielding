@@ -73,6 +73,7 @@
   <summary xml:lang="sl">Testiraj vaše REST API-je</summary>
   <summary xml:lang="sv">Prova dina REST-programmeringsgränssnitt</summary>
   <summary xml:lang="tr">REST API’si Sınayıcısı</summary>
+  <summary xml:lang="ug">REST API نى سىنايدۇ</summary>
   <summary xml:lang="uk">Перевірте ваші програмні інтерфейси REST</summary>
   <summary xml:lang="zh-CN">测试您的 REST API</summary>
   <summary xml:lang="zh-TW">測試您的 REST API</summary>
@@ -143,6 +144,7 @@
       <caption xml:lang="sl">Glavni pogled izdelave zahtevka GET</caption>
       <caption xml:lang="sv">Huvudvy som gör en GET-begäran</caption>
       <caption xml:lang="tr">Bir GET isteği yapan ana görünüm</caption>
+      <caption xml:lang="ug">ئاساسىي كۆرۈنۈشتە GET ئىلتىماسى ئىلتىماس قىلىۋاتىدۇ</caption>
       <caption xml:lang="uk">Основне вікно із запитом GET</caption>
       <caption xml:lang="zh-TW">主頁面，正在進行 GET 請求</caption>
     </screenshot>
