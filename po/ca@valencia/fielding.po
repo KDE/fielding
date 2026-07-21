@@ -43,7 +43,7 @@ msgstr "Eina de proves de l'API de Rest"
 #: main.cpp:46
 #, kde-format
 msgid "© 2022 - 2023 KDE Community"
-msgstr "© 2022 – 2023 Comunitat KDE"
+msgstr "© 2022 – 2023 La comunitat KDE"
 
 #: main.cpp:47
 #, kde-format
